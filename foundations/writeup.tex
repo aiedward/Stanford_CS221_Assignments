@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage,enumitem,amsmath,amssymb,graphicx}
+
+\begin{document}
+
+\begin{center}
+{\Large CS221 Fall 2015 Homework [number]}
+
+\begin{tabular}{rl}
+SUNet ID: & ziyuanc \\
+Name: & Ziyuan Chen \\
+Collaborators: & N/A
+\end{tabular}
+\end{center}
+
+By turning in this assignment, I agree by the Stanford honor code and declare
+that all of this is my own work.
+
+\section*{Problem 1}
+
+\begin{enumerate}[label=(\alph*)]
+  \item $\frac{df(x)}{dx}=\sum_{i=1}^{n} (\omega_ix-\omega_ib_i)=0$\newline
+  $x=\frac{\sum_{i=1}^{n} \omega_1b_i}{\sum_{i=1}^{n} \omega_i}$ minimizes the function.\newline
+  If some $\omega_i$'s are negative, then second derivative of $f(x)$ could be negative. Therefore, the value $x$ obtained from the expression above could be the maximum instead of the minimum.
+  \item We need to refactor the expressions\newline
+  $f(x) = \max_{a \in \{1,-1\}} a \sum_{j=1}^d x_j=|\sum_{j=1}^d x_j|$\newline
+  $g(x) = \sum_{j=1}^d \max_{a \in \{1,-1\}} a x_j=\sum_{j=1}^d |x_j|$\newline
+  According to the triangle inequality, $g(x)\geqslant f(x)$
+  \item Use the geometric distribution\newline
+  The expected number of rolls before stopping is $\frac{1}{\frac{1}{3}}=3$. For each roll, the chance of getting $r$ points is $\frac{1}{6}$. Thus the expected number of points is $3\times \frac{1}{6}r=\frac{1}{2}r$
+  \item Take the derivative of $logL(p)$:\newline
+  $\frac{dlogL(p)}{dp}=\frac{d(2log(p)+3log(1-p))}{dp}=0$\newline
+  So $\frac{2}{p}=\frac{3}{1-p}=\frac{2}{p}-\frac{3}{1-p}=0$
+  $p=\frac{2}{5}$\newline
+  If we take the second derivative, then we have 
+  $\frac{-2}{p^2}-\frac{3}{(1-p)^2}$ which is $-20.8$ at the $p$ we computed above. Thus it is a maximum point.
+  \item $\nabla f(\mathbf w) = 2\sum_{i=1}^n \sum_{j=1}^n (a_i^\top - b_j^\top) (a_i^\top \mathbf w - b_j^\top \mathbf w) + 2\lambda \mathbf w,$
+\end{enumerate}
+
+\section*{Problem 2}
+
+\begin{enumerate}[label=(\alph*)]
+  \item A rectangle has (n-a+1)(n-b+1) placements if it is a$\times$b. Therefore the number of possible placements of a rectangle is $O(n^2).$\newline
+  Because both a and b are in the range [1,n], a rectangle has $O(n^2)$ different possible dimensions.\newline
+  Therefore for one rectangle there are $O(n^4)$ ways to place it.\newline
+  For 5 rectangles, it should be in the order of $(n^4)^5=n^{20}$. Thus it's $O(n^{20})$.
+  \item The algorithm looks like:\newline
+  \begin{verbatim}
+  min_cost={}
+  def 2b(i):
+      if i==n:
+          return 0
+      if min_cost[i] already exists:
+          return min_cost[i]
+      else:
+          answer=MAX_INT
+          for j in range(i+1,n+1):
+              answer=min(answer,c(i,j)+2b(j))
+          min_cost[i]=answer
+          return answer
+   \end{verbatim}
+   This algorithm has a time complexity of $O(n^2)$ with dynamic programming.
+   \item If we draw out the rectangle and fill out each block with the number of ways to get there from the upper-left, then it is quite obvious that there are $\frac{(2n-2)!}{((n-1)!)^2}$ ways.
+   \item Since $\mathbf w$ is independent of the summations, just factor it out. We get:\newline
+   $f(\mathbf w) = \mathbf w^2 \sum_{i=1}^n \sum_{j=1}^n (a_i^\top - b_j^\top)^2 + \lambda \mathbf \sum_{i=1}^d \mathbf{w}_i$\newline
+   In preprocessing we can calculate $\\sum_{i=1}^n \sum_{j=1}^n (a_i^\top - b_j^\top)^2$ first, which takes $O(nd^2)$ time. Then for any given $\mathbf{w}$ we can simply compute $\sum_{i=1}^d \mathbf{w}_i$, which takes $O(d^2)$ time.
+\end{enumerate}
+
+\end{document}

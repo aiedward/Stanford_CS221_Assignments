@@ -1,0 +1,1395 @@
+========== START GRADING
+----- START PART init
+Training language cost functions [corpus: leo-will.txt]... Done!
+
+----- END PART init [took 0:00:03.657260 (max 15 seconds), 0/0 points]
+----- START PART 1b-1-basic
+----- END PART 1b-1-basic [took 0:00:00.000158 (max 2 seconds), 1/1 points]
+----- START PART 1b-2-basic
+----- END PART 1b-2-basic [took 0:00:00.000238 (max 2 seconds), 1/1 points]
+----- START PART 1b-3-hidden
+----- END PART 1b-3-hidden [took 0:00:00.007815 (max 3 seconds), --/3 points]
+----- START PART 1b-4-hidden
+----- END PART 1b-4-hidden [took 0:00:00.006121 (max 3 seconds), --/5 points]
+----- START PART 2b-1-basic
+result: []
+Current State: ('-BEGIN-', 0)
+Edges for current word [zz$z$zz]: set(['zz$z$zz'])
+Cost of bigram (-BEGIN-,zz$z$zz) is 1000.0
+result: ['zz$z$zz']
+Current State: ('-BEGIN-', 0)
+Edges for current word [bm]: set(['beam', 'bam', 'boom'])
+Cost of bigram (-BEGIN-,beam) is 1.0
+Cost of bigram (-BEGIN-,bam) is 1000.0
+Cost of bigram (-BEGIN-,boom) is 1000.0
+result: ['beam']
+Current State: ('-BEGIN-', 0)
+Edges for current word [m]: set(['me', 'ma'])
+Cost of bigram (-BEGIN-,me) is 1000.0
+Cost of bigram (-BEGIN-,ma) is 1000.0
+Current State: ('ma', 1)
+Edges for current word [p]: set(['epe', 'pa', 'up', 'oop'])
+Cost of bigram (ma,epe) is 1000.0
+Cost of bigram (ma,pa) is 1000.0
+Cost of bigram (ma,up) is 1000.0
+Cost of bigram (ma,oop) is 1000.0
+Current State: ('me', 1)
+Edges for current word [p]: set(['epe', 'pa', 'up', 'oop'])
+Cost of bigram (me,epe) is 1000.0
+Cost of bigram (me,pa) is 1000.0
+Cost of bigram (me,up) is 1.0
+Cost of bigram (me,oop) is 1000.0
+result: ['me', 'up']
+Current State: ('-BEGIN-', 0)
+Edges for current word [bm]: set(['beam', 'bam', 'boom'])
+Cost of bigram (-BEGIN-,beam) is 1.0
+Cost of bigram (-BEGIN-,bam) is 1000.0
+Cost of bigram (-BEGIN-,boom) is 1000.0
+Current State: ('beam', 1)
+Edges for current word [m]: set(['me', 'ma'])
+Cost of bigram (beam,me) is 1.0
+Cost of bigram (beam,ma) is 1000.0
+Current State: ('me', 2)
+Edges for current word [p]: set(['epe', 'pa', 'up', 'oop'])
+Cost of bigram (me,epe) is 1000.0
+Cost of bigram (me,pa) is 1000.0
+Cost of bigram (me,up) is 1.0
+Cost of bigram (me,oop) is 1000.0
+Current State: ('up', 3)
+Edges for current word [sctty]: set(['scotty'])
+Cost of bigram (up,scotty) is 1.0
+result: ['beam', 'me', 'up', 'scotty']
+----- END PART 2b-1-basic [took 0:00:00.000291 (max 2 seconds), 1/1 points]
+----- START PART 2b-2-hidden
+result: []
+Current State: ('-BEGIN-', 0)
+Edges for current word [zz$z$zz]: set(['zz$z$zz'])
+Cost of bigram (-BEGIN-,zz$z$zz) is 13.3927019165
+result: ['zz$z$zz']
+Current State: ('-BEGIN-', 0)
+Edges for current word []: set(['a', 'oo', 'oui', 'e', 'i', 'eau', 'iou', 'o', 'ii', 'au', 'u', 'ou', 'iii'])
+Cost of bigram (-BEGIN-,a) is 7.25497486242
+Cost of bigram (-BEGIN-,oo) is 12.6995547359
+Cost of bigram (-BEGIN-,oui) is 12.6995547359
+Cost of bigram (-BEGIN-,e) is 10.2572077006
+Cost of bigram (-BEGIN-,i) is 6.97270698836
+Cost of bigram (-BEGIN-,eau) is 13.3927019165
+Cost of bigram (-BEGIN-,iou) is 13.3927019165
+Cost of bigram (-BEGIN-,o) is 9.34965064867
+Cost of bigram (-BEGIN-,ii) is 13.3927019165
+Cost of bigram (-BEGIN-,au) is 12.6995547359
+Cost of bigram (-BEGIN-,u) is 13.3927019165
+Cost of bigram (-BEGIN-,ou) is 12.6995547359
+Cost of bigram (-BEGIN-,iii) is 13.3927019165
+result: ['i']
+Current State: ('-BEGIN-', 0)
+Edges for current word [wld]: set(['wild', 'wield', 'wailed', 'would'])
+Cost of bigram (-BEGIN-,wild) is 12.2940896278
+Cost of bigram (-BEGIN-,wield) is 13.3927019165
+Cost of bigram (-BEGIN-,wailed) is 13.3927019165
+Cost of bigram (-BEGIN-,would) is 8.59691137091
+Current State: ('would', 1)
+Edges for current word [lk]: set(['look', 'lake', 'like', 'alike'])
+Cost of bigram (would,look) is 12.6137403262
+Cost of bigram (would,lake) is 13.3068875068
+Cost of bigram (would,like) is 11.0043024138
+Cost of bigram (would,alike) is 13.3068875068
+Current State: ('wild', 1)
+Edges for current word [lk]: set(['look', 'lake', 'like', 'alike'])
+Cost of bigram (wild,look) is 13.3047082673
+Cost of bigram (wild,lake) is 13.3047082673
+Cost of bigram (wild,like) is 13.3047082673
+Cost of bigram (wild,alike) is 13.3047082673
+Current State: ('wailed', 1)
+Edges for current word [lk]: set(['look', 'lake', 'like', 'alike'])
+Cost of bigram (wailed,look) is 13.3046916008
+Cost of bigram (wailed,lake) is 13.3046916008
+Cost of bigram (wailed,like) is 13.3046916008
+Cost of bigram (wailed,alike) is 13.3046916008
+Current State: ('wield', 1)
+Edges for current word [lk]: set(['look', 'lake', 'like', 'alike'])
+Cost of bigram (wield,look) is 13.3046882675
+Cost of bigram (wield,lake) is 13.3046882675
+Cost of bigram (wield,like) is 13.3046882675
+Cost of bigram (wield,alike) is 13.3046882675
+Current State: ('like', 2)
+Edges for current word [t]: set(['ti', 'ate', 'eut', 'ut', 'tea', 'tu', 'it', 't', 'to', 'ta', 'toi', 'too', 'et', 'at', 'tie', 'toe', 'eat', 'out'])
+Cost of bigram (like,ti) is 13.3059274952
+Cost of bigram (like,ate) is 13.3059274952
+Cost of bigram (like,eut) is 13.3059274952
+Cost of bigram (like,ut) is 13.3059274952
+Cost of bigram (like,tea) is 13.3059274952
+Cost of bigram (like,tu) is 13.3059274952
+Cost of bigram (like,it) is 10.2614050575
+Cost of bigram (like,t) is 13.3059274952
+Cost of bigram (like,to) is 9.54472737954
+Cost of bigram (like,ta) is 13.3059274952
+Cost of bigram (like,toi) is 13.3059274952
+Cost of bigram (like,too) is 13.3059274952
+Cost of bigram (like,et) is 13.3059274952
+Cost of bigram (like,at) is 13.3059274952
+Cost of bigram (like,tie) is 13.3059274952
+Cost of bigram (like,toe) is 13.3059274952
+Cost of bigram (like,eat) is 13.3059274952
+Cost of bigram (like,out) is 13.3059274952
+Current State: ('look', 2)
+Edges for current word [t]: set(['ti', 'ate', 'eut', 'ut', 'tea', 'tu', 'it', 't', 'to', 'ta', 'toi', 'too', 'et', 'at', 'tie', 'toe', 'eat', 'out'])
+Cost of bigram (look,ti) is 13.3054696262
+Cost of bigram (look,ate) is 13.3054696262
+Cost of bigram (look,eut) is 13.3054696262
+Cost of bigram (look,ut) is 13.3054696262
+Cost of bigram (look,tea) is 13.3054696262
+Cost of bigram (look,tu) is 13.3054696262
+Cost of bigram (look,it) is 11.9191752651
+Cost of bigram (look,t) is 13.3054696262
+Cost of bigram (look,to) is 11.2260280846
+Cost of bigram (look,ta) is 13.3054696262
+Cost of bigram (look,toi) is 13.3054696262
+Cost of bigram (look,too) is 13.3054696262
+Cost of bigram (look,et) is 13.3054696262
+Cost of bigram (look,at) is 8.59593942493
+Cost of bigram (look,tie) is 13.3054696262
+Cost of bigram (look,toe) is 13.3054696262
+Cost of bigram (look,eat) is 13.3054696262
+Cost of bigram (look,out) is 11.1082450489
+Current State: ('alike', 2)
+Edges for current word [t]: set(['ti', 'ate', 'eut', 'ut', 'tea', 'tu', 'it', 't', 'to', 'ta', 'toi', 'too', 'et', 'at', 'tie', 'toe', 'eat', 'out'])
+Cost of bigram (alike,ti) is 13.3047216002
+Cost of bigram (alike,ate) is 13.3047216002
+Cost of bigram (alike,eut) is 13.3047216002
+Cost of bigram (alike,ut) is 13.3047216002
+Cost of bigram (alike,tea) is 13.3047216002
+Cost of bigram (alike,tu) is 13.3047216002
+Cost of bigram (alike,it) is 13.3047216002
+Cost of bigram (alike,t) is 13.3047216002
+Cost of bigram (alike,to) is 12.6115744196
+Cost of bigram (alike,ta) is 13.3047216002
+Cost of bigram (alike,toi) is 13.3047216002
+Cost of bigram (alike,too) is 13.3047216002
+Cost of bigram (alike,et) is 13.3047216002
+Cost of bigram (alike,at) is 13.3047216002
+Cost of bigram (alike,tie) is 13.3047216002
+Cost of bigram (alike,toe) is 13.3047216002
+Cost of bigram (alike,eat) is 13.3047216002
+Cost of bigram (alike,out) is 13.3047216002
+Current State: ('lake', 2)
+Edges for current word [t]: set(['ti', 'ate', 'eut', 'ut', 'tea', 'tu', 'it', 't', 'to', 'ta', 'toi', 'too', 'et', 'at', 'tie', 'toe', 'eat', 'out'])
+Cost of bigram (lake,ti) is 13.3046882675
+Cost of bigram (lake,ate) is 13.3046882675
+Cost of bigram (lake,eut) is 13.3046882675
+Cost of bigram (lake,ut) is 13.3046882675
+Cost of bigram (lake,tea) is 13.3046882675
+Cost of bigram (lake,tu) is 13.3046882675
+Cost of bigram (lake,it) is 13.3046882675
+Cost of bigram (lake,t) is 13.3046882675
+Cost of bigram (lake,to) is 13.3046882675
+Cost of bigram (lake,ta) is 13.3046882675
+Cost of bigram (lake,toi) is 13.3046882675
+Cost of bigram (lake,too) is 13.3046882675
+Cost of bigram (lake,et) is 13.3046882675
+Cost of bigram (lake,at) is 13.3046882675
+Cost of bigram (lake,tie) is 13.3046882675
+Cost of bigram (lake,toe) is 13.3046882675
+Cost of bigram (lake,eat) is 13.3046882675
+Cost of bigram (lake,out) is 13.3046882675
+Current State: ('to', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (to,heave) is 12.638163456
+Cost of bigram (to,hive) is 13.3313106365
+Cost of bigram (to,have) is 8.2624064343
+Current State: ('at', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (at,heave) is 13.3118591379
+Cost of bigram (at,hive) is 13.3118591379
+Cost of bigram (at,have) is 13.3118591379
+Current State: ('it', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (it,heave) is 13.312904395
+Cost of bigram (it,hive) is 13.312904395
+Cost of bigram (it,have) is 12.2142921064
+Current State: ('out', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (out,heave) is 13.3066413525
+Cost of bigram (out,hive) is 13.3066413525
+Cost of bigram (out,have) is 13.3066413525
+Current State: ('ate', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (ate,heave) is 13.3047082673
+Cost of bigram (ate,hive) is 13.3047082673
+Cost of bigram (ate,have) is 13.3047082673
+Current State: ('eat', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (eat,heave) is 13.3047449324
+Cost of bigram (eat,hive) is 13.3047449324
+Cost of bigram (eat,have) is 13.3047449324
+Current State: ('et', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (et,heave) is 13.3047132671
+Cost of bigram (et,hive) is 13.3047132671
+Cost of bigram (et,have) is 13.3047132671
+Current State: ('eut', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (eut,heave) is 13.3046866009
+Cost of bigram (eut,hive) is 13.3046866009
+Cost of bigram (eut,have) is 13.3046866009
+Current State: ('t', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (t,heave) is 13.3046932675
+Cost of bigram (t,hive) is 13.3046932675
+Cost of bigram (t,have) is 13.3046932675
+Current State: ('ta', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (ta,heave) is 13.3046932675
+Cost of bigram (ta,hive) is 13.3046932675
+Cost of bigram (ta,have) is 13.3046932675
+Current State: ('tea', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (tea,heave) is 13.3047865957
+Cost of bigram (tea,hive) is 13.3047865957
+Cost of bigram (tea,have) is 13.3047865957
+Current State: ('ti', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (ti,heave) is 13.3046932675
+Cost of bigram (ti,hive) is 13.3046932675
+Cost of bigram (ti,have) is 13.3046932675
+Current State: ('tie', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (tie,heave) is 13.3046932675
+Cost of bigram (tie,hive) is 13.3046932675
+Cost of bigram (tie,have) is 13.3046932675
+Current State: ('toe', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (toe,heave) is 13.3046866009
+Cost of bigram (toe,hive) is 13.3046866009
+Cost of bigram (toe,have) is 13.3046866009
+Current State: ('toi', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (toi,heave) is 13.3046882675
+Cost of bigram (toi,hive) is 13.3046882675
+Cost of bigram (toi,have) is 13.3046882675
+Current State: ('too', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (too,heave) is 13.3053447165
+Cost of bigram (too,hive) is 13.3053447165
+Cost of bigram (too,have) is 12.2067324278
+Current State: ('tu', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (tu,heave) is 13.3046916008
+Cost of bigram (tu,hive) is 13.3046916008
+Cost of bigram (tu,have) is 13.3046916008
+Current State: ('ut', 3)
+Edges for current word [hv]: set(['heave', 'hive', 'have'])
+Cost of bigram (ut,heave) is 13.3046882675
+Cost of bigram (ut,hive) is 13.3046882675
+Cost of bigram (ut,have) is 13.3046882675
+Current State: ('have', 4)
+Edges for current word [mr]: set(['mare', 'moreau', 'mire', 'mer', 'marie', 'morio', 'mori', 'mr', 'mar', 'more', 'mere', 'maria'])
+Cost of bigram (have,mare) is 13.3079645504
+Cost of bigram (have,moreau) is 13.3079645504
+Cost of bigram (have,mire) is 13.3079645504
+Cost of bigram (have,mer) is 13.3079645504
+Cost of bigram (have,marie) is 13.3079645504
+Cost of bigram (have,morio) is 13.3079645504
+Cost of bigram (have,mori) is 13.3079645504
+Cost of bigram (have,mr) is 13.3079645504
+Cost of bigram (have,mar) is 13.3079645504
+Cost of bigram (have,more) is 11.9216701893
+Cost of bigram (have,mere) is 13.3079645504
+Cost of bigram (have,maria) is 13.3079645504
+Current State: ('heave', 4)
+Edges for current word [mr]: set(['mare', 'moreau', 'mire', 'mer', 'marie', 'morio', 'mori', 'mr', 'mar', 'more', 'mere', 'maria'])
+Cost of bigram (heave,mare) is 13.3046899342
+Cost of bigram (heave,moreau) is 13.3046899342
+Cost of bigram (heave,mire) is 13.3046899342
+Cost of bigram (heave,mer) is 13.3046899342
+Cost of bigram (heave,marie) is 13.3046899342
+Cost of bigram (heave,morio) is 13.3046899342
+Cost of bigram (heave,mori) is 13.3046899342
+Cost of bigram (heave,mr) is 13.3046899342
+Cost of bigram (heave,mar) is 13.3046899342
+Cost of bigram (heave,more) is 13.3046899342
+Cost of bigram (heave,mere) is 13.3046899342
+Cost of bigram (heave,maria) is 13.3046899342
+Current State: ('hive', 4)
+Edges for current word [mr]: set(['mare', 'moreau', 'mire', 'mer', 'marie', 'morio', 'mori', 'mr', 'mar', 'more', 'mere', 'maria'])
+Cost of bigram (hive,mare) is 13.3047149337
+Cost of bigram (hive,moreau) is 13.3047149337
+Cost of bigram (hive,mire) is 13.3047149337
+Cost of bigram (hive,mer) is 13.3047149337
+Cost of bigram (hive,marie) is 13.3047149337
+Cost of bigram (hive,morio) is 13.3047149337
+Cost of bigram (hive,mori) is 13.3047149337
+Cost of bigram (hive,mr) is 13.3047149337
+Cost of bigram (hive,mar) is 13.3047149337
+Cost of bigram (hive,more) is 12.6115677532
+Cost of bigram (hive,mere) is 13.3047149337
+Cost of bigram (hive,maria) is 13.3047149337
+Current State: ('more', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (more,latters) is 13.3063502135
+Cost of bigram (more,letters) is 12.613203033
+Current State: ('mar', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (mar,latters) is 13.3046849342
+Cost of bigram (mar,letters) is 13.3046849342
+Current State: ('mare', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (mare,latters) is 13.3046916008
+Cost of bigram (mare,letters) is 13.3046916008
+Current State: ('maria', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (maria,latters) is 13.3046916008
+Cost of bigram (maria,letters) is 13.3046916008
+Current State: ('marie', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (marie,latters) is 13.3046982674
+Cost of bigram (marie,letters) is 13.3046982674
+Current State: ('mer', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (mer,latters) is 13.3047882622
+Cost of bigram (mer,letters) is 13.3047882622
+Current State: ('mere', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (mere,latters) is 13.3047266
+Cost of bigram (mere,letters) is 13.3047266
+Current State: ('mire', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (mire,latters) is 13.3046849342
+Cost of bigram (mire,letters) is 13.3046849342
+Current State: ('moreau', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (moreau,latters) is 13.3046932675
+Cost of bigram (moreau,letters) is 13.3046932675
+Current State: ('mori', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (mori,latters) is 13.3046866009
+Cost of bigram (mori,letters) is 13.3046866009
+Current State: ('morio', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (morio,latters) is 13.3046899342
+Cost of bigram (morio,letters) is 13.3046899342
+Current State: ('mr', 5)
+Edges for current word [lttrs]: set(['latters', 'letters'])
+Cost of bigram (mr,latters) is 13.3047032674
+Cost of bigram (mr,letters) is 13.3047032674
+result: ['would', 'like', 'to', 'have', 'more', 'letters']
+Current State: ('-BEGIN-', 0)
+Edges for current word [ngh]: set(['enough'])
+Cost of bigram (-BEGIN-,enough) is 11.3132603748
+Current State: ('enough', 1)
+Edges for current word [lrdy]: set(['already'])
+Cost of bigram (enough,already) is 13.3047899287
+result: ['enough', 'already']
+----- END PART 2b-2-hidden [took 0:00:00.000897 (max 2 seconds), --/3 points]
+----- START PART 2b-3-hidden
+Current State: ('-BEGIN-', 0)
+Edges for current word [x]: set(['dog', 'cat'])
+Cost of bigram (-BEGIN-,dog) is 1000.0
+Cost of bigram (-BEGIN-,cat) is 5.0
+result: ['cat']
+Current State: ('-BEGIN-', 0)
+Edges for current word [x1]: set(['dog', 'cat'])
+Cost of bigram (-BEGIN-,dog) is 1000.0
+Cost of bigram (-BEGIN-,cat) is 1.0
+Current State: ('cat', 1)
+Edges for current word [x2]: set(['log', 'frog', 'dog'])
+Cost of bigram (cat,log) is 1.0
+Cost of bigram (cat,frog) is 1000.0
+Cost of bigram (cat,dog) is 2.0
+Current State: ('log', 2)
+Edges for current word [x3]: set(['house', 'mouse', 'cat'])
+Cost of bigram (log,house) is 1000.0
+Cost of bigram (log,mouse) is 3.0
+Cost of bigram (log,cat) is 1000.0
+Current State: ('dog', 2)
+Edges for current word [x3]: set(['house', 'mouse', 'cat'])
+Cost of bigram (dog,house) is 1000.0
+Cost of bigram (dog,mouse) is 1.0
+Cost of bigram (dog,cat) is 1000.0
+result: ['cat', 'dog', 'mouse']
+Current State: ('-BEGIN-', 0)
+Edges for current word [x0]: set(['dog', 'cat'])
+Cost of bigram (-BEGIN-,dog) is 1000.0
+Cost of bigram (-BEGIN-,cat) is 1.0
+Current State: ('cat', 1)
+Edges for current word [x1]: set(['dog1', 'frog', 'log1'])
+Cost of bigram (cat,dog1) is 2.0
+Cost of bigram (cat,frog) is 1000.0
+Cost of bigram (cat,log1) is 1.0
+Current State: ('log1', 2)
+Edges for current word [x2]: set(['dog2', 'log2', 'frog'])
+Cost of bigram (log1,dog2) is 1000.0
+Cost of bigram (log1,log2) is 0.25
+Cost of bigram (log1,frog) is 1000.0
+Current State: ('log2', 3)
+Edges for current word [x3]: set(['log3', 'frog', 'dog3'])
+Cost of bigram (log2,log3) is 0.25
+Cost of bigram (log2,frog) is 1000.0
+Cost of bigram (log2,dog3) is 1000.0
+Current State: ('log3', 4)
+Edges for current word [x4]: set(['log4', 'dog4', 'frog'])
+Cost of bigram (log3,log4) is 0.25
+Cost of bigram (log3,dog4) is 1000.0
+Cost of bigram (log3,frog) is 1000.0
+Current State: ('log4', 5)
+Edges for current word [x5]: set(['dog5', 'log5', 'frog'])
+Cost of bigram (log4,dog5) is 1000.0
+Cost of bigram (log4,log5) is 0.25
+Cost of bigram (log4,frog) is 1000.0
+Current State: ('dog1', 2)
+Edges for current word [x2]: set(['dog2', 'log2', 'frog'])
+Cost of bigram (dog1,dog2) is 1.0
+Cost of bigram (dog1,log2) is 1000.0
+Cost of bigram (dog1,frog) is 1000.0
+Current State: ('log5', 6)
+Edges for current word [x6]: set(['log6', 'dog6', 'frog'])
+Cost of bigram (log5,log6) is 0.25
+Cost of bigram (log5,dog6) is 1000.0
+Cost of bigram (log5,frog) is 1000.0
+Current State: ('log6', 7)
+Edges for current word [x7]: set(['log7', 'frog', 'dog7'])
+Cost of bigram (log6,log7) is 0.25
+Cost of bigram (log6,frog) is 1000.0
+Cost of bigram (log6,dog7) is 1000.0
+Current State: ('log7', 8)
+Edges for current word [x8]: set(['frog', 'dog8', 'log8'])
+Cost of bigram (log7,frog) is 1000.0
+Cost of bigram (log7,dog8) is 1000.0
+Cost of bigram (log7,log8) is 0.25
+Current State: ('log8', 9)
+Edges for current word [x9]: set(['dog9', 'frog', 'log9'])
+Cost of bigram (log8,dog9) is 1000.0
+Cost of bigram (log8,frog) is 1000.0
+Cost of bigram (log8,log9) is 0.25
+Current State: ('dog2', 3)
+Edges for current word [x3]: set(['log3', 'frog', 'dog3'])
+Cost of bigram (dog2,log3) is 1000.0
+Cost of bigram (dog2,frog) is 1000.0
+Cost of bigram (dog2,dog3) is 0.5
+Current State: ('log9', 10)
+Edges for current word [x10]: set(['dog10', 'log10', 'frog'])
+Cost of bigram (log9,dog10) is 1000.0
+Cost of bigram (log9,log10) is 0.25
+Cost of bigram (log9,frog) is 1000.0
+Current State: ('log10', 11)
+Edges for current word [x11]: set(['log11', 'frog', 'dog11'])
+Cost of bigram (log10,log11) is 0.25
+Cost of bigram (log10,frog) is 1000.0
+Cost of bigram (log10,dog11) is 1000.0
+Current State: ('dog3', 4)
+Edges for current word [x4]: set(['log4', 'dog4', 'frog'])
+Cost of bigram (dog3,log4) is 1000.0
+Cost of bigram (dog3,dog4) is 0.333333333333
+Cost of bigram (dog3,frog) is 1000.0
+Current State: ('log11', 12)
+Edges for current word [x12]: set(['frog', 'dog12', 'log12'])
+Cost of bigram (log11,frog) is 1000.0
+Cost of bigram (log11,dog12) is 1000.0
+Cost of bigram (log11,log12) is 0.25
+Current State: ('log12', 13)
+Edges for current word [x13]: set(['dog13', 'frog', 'log13'])
+Cost of bigram (log12,dog13) is 1000.0
+Cost of bigram (log12,frog) is 1000.0
+Cost of bigram (log12,log13) is 0.25
+Current State: ('dog4', 5)
+Edges for current word [x5]: set(['dog5', 'log5', 'frog'])
+Cost of bigram (dog4,dog5) is 0.25
+Cost of bigram (dog4,log5) is 1000.0
+Cost of bigram (dog4,frog) is 1000.0
+Current State: ('log13', 14)
+Edges for current word [x14]: set(['log14', 'dog14', 'frog'])
+Cost of bigram (log13,log14) is 0.25
+Cost of bigram (log13,dog14) is 1000.0
+Cost of bigram (log13,frog) is 1000.0
+Current State: ('dog5', 6)
+Edges for current word [x6]: set(['log6', 'dog6', 'frog'])
+Cost of bigram (dog5,log6) is 1000.0
+Cost of bigram (dog5,dog6) is 0.2
+Cost of bigram (dog5,frog) is 1000.0
+Current State: ('log14', 15)
+Edges for current word [x15]: set(['log15', 'frog', 'dog15'])
+Cost of bigram (log14,log15) is 0.25
+Cost of bigram (log14,frog) is 1000.0
+Cost of bigram (log14,dog15) is 1000.0
+Current State: ('dog6', 7)
+Edges for current word [x7]: set(['log7', 'frog', 'dog7'])
+Cost of bigram (dog6,log7) is 1000.0
+Cost of bigram (dog6,frog) is 1000.0
+Cost of bigram (dog6,dog7) is 0.166666666667
+Current State: ('dog7', 8)
+Edges for current word [x8]: set(['frog', 'dog8', 'log8'])
+Cost of bigram (dog7,frog) is 1000.0
+Cost of bigram (dog7,dog8) is 0.142857142857
+Cost of bigram (dog7,log8) is 1000.0
+Current State: ('log15', 16)
+Edges for current word [x16]: set(['log16', 'dog16', 'frog'])
+Cost of bigram (log15,log16) is 0.25
+Cost of bigram (log15,dog16) is 1000.0
+Cost of bigram (log15,frog) is 1000.0
+Current State: ('dog8', 9)
+Edges for current word [x9]: set(['dog9', 'frog', 'log9'])
+Cost of bigram (dog8,dog9) is 0.125
+Cost of bigram (dog8,frog) is 1000.0
+Cost of bigram (dog8,log9) is 1000.0
+Current State: ('dog9', 10)
+Edges for current word [x10]: set(['dog10', 'log10', 'frog'])
+Cost of bigram (dog9,dog10) is 0.111111111111
+Cost of bigram (dog9,log10) is 1000.0
+Cost of bigram (dog9,frog) is 1000.0
+Current State: ('log16', 17)
+Edges for current word [x17]: set(['dog17', 'log17', 'frog'])
+Cost of bigram (log16,dog17) is 1000.0
+Cost of bigram (log16,log17) is 0.25
+Cost of bigram (log16,frog) is 1000.0
+Current State: ('dog10', 11)
+Edges for current word [x11]: set(['log11', 'frog', 'dog11'])
+Cost of bigram (dog10,log11) is 1000.0
+Cost of bigram (dog10,frog) is 1000.0
+Cost of bigram (dog10,dog11) is 0.1
+Current State: ('dog11', 12)
+Edges for current word [x12]: set(['frog', 'dog12', 'log12'])
+Cost of bigram (dog11,frog) is 1000.0
+Cost of bigram (dog11,dog12) is 0.0909090909091
+Cost of bigram (dog11,log12) is 1000.0
+Current State: ('log17', 18)
+Edges for current word [x18]: set(['dog18', 'log18', 'frog'])
+Cost of bigram (log17,dog18) is 1000.0
+Cost of bigram (log17,log18) is 0.25
+Cost of bigram (log17,frog) is 1000.0
+Current State: ('dog12', 13)
+Edges for current word [x13]: set(['dog13', 'frog', 'log13'])
+Cost of bigram (dog12,dog13) is 0.0833333333333
+Cost of bigram (dog12,frog) is 1000.0
+Cost of bigram (dog12,log13) is 1000.0
+Current State: ('dog13', 14)
+Edges for current word [x14]: set(['log14', 'dog14', 'frog'])
+Cost of bigram (dog13,log14) is 1000.0
+Cost of bigram (dog13,dog14) is 0.0769230769231
+Cost of bigram (dog13,frog) is 1000.0
+Current State: ('dog14', 15)
+Edges for current word [x15]: set(['log15', 'frog', 'dog15'])
+Cost of bigram (dog14,log15) is 1000.0
+Cost of bigram (dog14,frog) is 1000.0
+Cost of bigram (dog14,dog15) is 0.0714285714286
+Current State: ('log18', 19)
+Edges for current word [x19]: set(['log19', 'frog', 'dog19'])
+Cost of bigram (log18,log19) is 0.25
+Cost of bigram (log18,frog) is 1000.0
+Cost of bigram (log18,dog19) is 1000.0
+Current State: ('dog15', 16)
+Edges for current word [x16]: set(['log16', 'dog16', 'frog'])
+Cost of bigram (dog15,log16) is 1000.0
+Cost of bigram (dog15,dog16) is 0.0666666666667
+Cost of bigram (dog15,frog) is 1000.0
+Current State: ('dog16', 17)
+Edges for current word [x17]: set(['dog17', 'log17', 'frog'])
+Cost of bigram (dog16,dog17) is 0.0625
+Cost of bigram (dog16,log17) is 1000.0
+Cost of bigram (dog16,frog) is 1000.0
+Current State: ('dog17', 18)
+Edges for current word [x18]: set(['dog18', 'log18', 'frog'])
+Cost of bigram (dog17,dog18) is 0.0588235294118
+Cost of bigram (dog17,log18) is 1000.0
+Cost of bigram (dog17,frog) is 1000.0
+Current State: ('dog18', 19)
+Edges for current word [x19]: set(['log19', 'frog', 'dog19'])
+Cost of bigram (dog18,log19) is 1000.0
+Cost of bigram (dog18,frog) is 1000.0
+Cost of bigram (dog18,dog19) is 0.0555555555556
+Current State: ('dog19', 20)
+Edges for current word [x20]: set(['log20', 'frog', 'dog20'])
+Cost of bigram (dog19,log20) is 1000.0
+Cost of bigram (dog19,frog) is 1000.0
+Cost of bigram (dog19,dog20) is 0.0526315789474
+Current State: ('log19', 20)
+Edges for current word [x20]: set(['log20', 'frog', 'dog20'])
+Cost of bigram (log19,log20) is 0.25
+Cost of bigram (log19,frog) is 1000.0
+Cost of bigram (log19,dog20) is 1000.0
+Current State: ('dog20', 21)
+Edges for current word [x21]: set(['house', 'mouse', 'cat'])
+Cost of bigram (dog20,house) is 1000.0
+Cost of bigram (dog20,mouse) is 1.0
+Cost of bigram (dog20,cat) is 1000.0
+Current State: ('log20', 21)
+Edges for current word [x21]: set(['house', 'mouse', 'cat'])
+Cost of bigram (log20,house) is 1000.0
+Cost of bigram (log20,mouse) is 1.0
+Cost of bigram (log20,cat) is 1000.0
+result: ['cat', 'dog1', 'dog2', 'dog3', 'dog4', 'dog5', 'dog6', 'dog7', 'dog8', 'dog9', 'dog10', 'dog11', 'dog12', 'dog13', 'dog14', 'dog15', 'dog16', 'dog17', 'dog18', 'dog19', 'dog20', 'mouse']
+----- END PART 2b-3-hidden [took 0:00:00.003457 (max 3 seconds), --/3 points]
+----- START PART 2b-4-hidden
+Current State: ('-BEGIN-', 0)
+Edges for current word [strng]: set(['storing', 'strong', 'strange', 'string', 'staring'])
+Cost of bigram (-BEGIN-,storing) is 13.3927019165
+Cost of bigram (-BEGIN-,strong) is 11.3132603748
+Cost of bigram (-BEGIN-,strange) is 10.2146480862
+Cost of bigram (-BEGIN-,string) is 13.3927019165
+Cost of bigram (-BEGIN-,staring) is 13.3927019165
+result: ['strange']
+Current State: ('-BEGIN-', 0)
+Edges for current word [pls]: set(['piles', 'peals', 'please', 'pulse', 'pails', 'poles', 'pools', 'plus'])
+Cost of bigram (-BEGIN-,piles) is 13.3927019165
+Cost of bigram (-BEGIN-,peals) is 13.3927019165
+Cost of bigram (-BEGIN-,please) is 10.1346053785
+Cost of bigram (-BEGIN-,pulse) is 12.6995547359
+Cost of bigram (-BEGIN-,pails) is 13.3927019165
+Cost of bigram (-BEGIN-,poles) is 13.3927019165
+Cost of bigram (-BEGIN-,pools) is 13.3927019165
+Cost of bigram (-BEGIN-,plus) is 13.3927019165
+result: ['please']
+Current State: ('-BEGIN-', 0)
+Edges for current word [hll]: set(['hell', 'hullo', 'hallo', 'hall', 'hill'])
+Cost of bigram (-BEGIN-,hell) is 11.4467917675
+Cost of bigram (-BEGIN-,hullo) is 13.3927019165
+Cost of bigram (-BEGIN-,hallo) is 12.2940896278
+Cost of bigram (-BEGIN-,hall) is 12.6995547359
+Cost of bigram (-BEGIN-,hill) is 11.6009424473
+Current State: ('hell', 1)
+Edges for current word [thr]: set(['author', 'there', 'three', 'their', 'other', 'either', 'ether'])
+Cost of bigram (hell,author) is 13.3047249334
+Cost of bigram (hell,there) is 13.3047249334
+Cost of bigram (hell,three) is 13.3047249334
+Cost of bigram (hell,their) is 13.3047249334
+Cost of bigram (hell,other) is 13.3047249334
+Cost of bigram (hell,either) is 13.3047249334
+Cost of bigram (hell,ether) is 13.3047249334
+Current State: ('hill', 1)
+Edges for current word [thr]: set(['author', 'there', 'three', 'their', 'other', 'either', 'ether'])
+Cost of bigram (hill,author) is 13.3048032605
+Cost of bigram (hill,there) is 12.61165608
+Cost of bigram (hill,three) is 13.3048032605
+Cost of bigram (hill,their) is 13.3048032605
+Cost of bigram (hill,other) is 13.3048032605
+Cost of bigram (hill,either) is 13.3048032605
+Cost of bigram (hill,ether) is 13.3048032605
+Current State: ('hallo', 1)
+Edges for current word [thr]: set(['author', 'there', 'three', 'their', 'other', 'either', 'ether'])
+Cost of bigram (hallo,author) is 13.3046882675
+Cost of bigram (hallo,there) is 13.3046882675
+Cost of bigram (hallo,three) is 13.3046882675
+Cost of bigram (hallo,their) is 13.3046882675
+Cost of bigram (hallo,other) is 13.3046882675
+Cost of bigram (hallo,either) is 13.3046882675
+Cost of bigram (hallo,ether) is 13.3046882675
+Current State: ('hall', 1)
+Edges for current word [thr]: set(['author', 'there', 'three', 'their', 'other', 'either', 'ether'])
+Cost of bigram (hall,author) is 13.3047699306
+Cost of bigram (hall,there) is 12.61162275
+Cost of bigram (hall,three) is 13.3047699306
+Cost of bigram (hall,their) is 13.3047699306
+Cost of bigram (hall,other) is 13.3047699306
+Cost of bigram (hall,either) is 13.3047699306
+Cost of bigram (hall,ether) is 13.3047699306
+Current State: ('hullo', 1)
+Edges for current word [thr]: set(['author', 'there', 'three', 'their', 'other', 'either', 'ether'])
+Cost of bigram (hullo,author) is 13.3046899342
+Cost of bigram (hullo,there) is 12.2060776455
+Cost of bigram (hullo,three) is 13.3046899342
+Cost of bigram (hullo,their) is 13.3046899342
+Cost of bigram (hullo,other) is 13.3046899342
+Cost of bigram (hullo,either) is 13.3046899342
+Cost of bigram (hullo,ether) is 13.3046899342
+result: ['hill', 'there']
+Current State: ('-BEGIN-', 0)
+Edges for current word [whts]: set(['whites', 'whats'])
+Cost of bigram (-BEGIN-,whites) is 12.6995547359
+Cost of bigram (-BEGIN-,whats) is 10.1738260916
+Current State: ('whats', 1)
+Edges for current word [p]: set(['ope', 'pie', 'peu', 'pua', 'up', 'p', 'pa', 'pe', 'ape', 'po', 'op'])
+Cost of bigram (whats,ope) is 13.3048032605
+Cost of bigram (whats,pie) is 13.3048032605
+Cost of bigram (whats,peu) is 13.3048032605
+Cost of bigram (whats,pua) is 13.3048032605
+Cost of bigram (whats,up) is 12.61165608
+Cost of bigram (whats,p) is 13.3048032605
+Cost of bigram (whats,pa) is 13.3048032605
+Cost of bigram (whats,pe) is 13.3048032605
+Cost of bigram (whats,ape) is 13.3048032605
+Cost of bigram (whats,po) is 13.3048032605
+Cost of bigram (whats,op) is 13.3048032605
+Current State: ('whites', 1)
+Edges for current word [p]: set(['ope', 'pie', 'peu', 'pua', 'up', 'p', 'pa', 'pe', 'ape', 'po', 'op'])
+Cost of bigram (whites,ope) is 13.3046899342
+Cost of bigram (whites,pie) is 13.3046899342
+Cost of bigram (whites,peu) is 13.3046899342
+Cost of bigram (whites,pua) is 13.3046899342
+Cost of bigram (whites,up) is 13.3046899342
+Cost of bigram (whites,p) is 13.3046899342
+Cost of bigram (whites,pa) is 13.3046899342
+Cost of bigram (whites,pe) is 13.3046899342
+Cost of bigram (whites,ape) is 13.3046899342
+Cost of bigram (whites,po) is 13.3046899342
+Cost of bigram (whites,op) is 13.3046899342
+result: ['whats', 'up']
+Current State: ('-BEGIN-', 0)
+Edges for current word [dd]: set(['aided', 'did', 'dido', 'dead', 'add', 'deed', 'odd', 'died'])
+Cost of bigram (-BEGIN-,aided) is 13.3927019165
+Cost of bigram (-BEGIN-,did) is 9.01067528183
+Cost of bigram (-BEGIN-,dido) is 13.3927019165
+Cost of bigram (-BEGIN-,dead) is 11.4467917675
+Cost of bigram (-BEGIN-,add) is 13.3927019165
+Cost of bigram (-BEGIN-,deed) is 12.2940896278
+Cost of bigram (-BEGIN-,odd) is 13.3927019165
+Cost of bigram (-BEGIN-,died) is 12.2940896278
+Current State: ('did', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (did,and) is 11.3611619336
+Cost of bigram (did,end) is 13.3070720827
+Cost of bigram (did,nod) is 13.3070720827
+Cost of bigram (did,nd) is 13.3070720827
+Cost of bigram (did,india) is 13.3070720827
+Cost of bigram (did,undo) is 13.3070720827
+Cost of bigram (did,und) is 13.3070720827
+Cost of bigram (did,need) is 12.6139249021
+Current State: ('dead', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (dead,and) is 10.8199382716
+Cost of bigram (dead,end) is 13.3048449214
+Cost of bigram (dead,nod) is 13.3048449214
+Cost of bigram (dead,nd) is 13.3048449214
+Cost of bigram (dead,india) is 13.3048449214
+Cost of bigram (dead,undo) is 13.3048449214
+Cost of bigram (dead,und) is 13.3048449214
+Cost of bigram (dead,need) is 13.3048449214
+Current State: ('deed', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (deed,and) is 11.6952770213
+Cost of bigram (deed,end) is 13.3047149337
+Cost of bigram (deed,nod) is 13.3047149337
+Cost of bigram (deed,nd) is 13.3047149337
+Cost of bigram (deed,india) is 13.3047149337
+Cost of bigram (deed,undo) is 13.3047149337
+Cost of bigram (deed,und) is 13.3047149337
+Cost of bigram (deed,need) is 13.3047149337
+Current State: ('died', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (died,and) is 11.3588547819
+Cost of bigram (died,end) is 13.304764931
+Cost of bigram (died,nod) is 13.304764931
+Cost of bigram (died,nd) is 13.304764931
+Cost of bigram (died,india) is 13.304764931
+Cost of bigram (died,undo) is 13.304764931
+Cost of bigram (died,und) is 13.304764931
+Cost of bigram (died,need) is 13.304764931
+Current State: ('add', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (add,and) is 13.3046982674
+Cost of bigram (add,end) is 13.3046982674
+Cost of bigram (add,nod) is 13.3046982674
+Cost of bigram (add,nd) is 13.3046982674
+Cost of bigram (add,india) is 13.3046982674
+Cost of bigram (add,undo) is 13.3046982674
+Cost of bigram (add,und) is 13.3046982674
+Cost of bigram (add,need) is 13.3046982674
+Current State: ('aided', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (aided,and) is 13.3046866009
+Cost of bigram (aided,end) is 13.3046866009
+Cost of bigram (aided,nod) is 13.3046866009
+Cost of bigram (aided,nd) is 13.3046866009
+Cost of bigram (aided,india) is 13.3046866009
+Cost of bigram (aided,undo) is 13.3046866009
+Cost of bigram (aided,und) is 13.3046866009
+Cost of bigram (aided,need) is 13.3046866009
+Current State: ('dido', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (dido,and) is 13.3046866009
+Cost of bigram (dido,end) is 13.3046866009
+Cost of bigram (dido,nod) is 13.3046866009
+Cost of bigram (dido,nd) is 13.3046866009
+Cost of bigram (dido,india) is 13.3046866009
+Cost of bigram (dido,undo) is 13.3046866009
+Cost of bigram (dido,und) is 13.3046866009
+Cost of bigram (dido,need) is 13.3046866009
+Current State: ('odd', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (odd,and) is 13.3046916008
+Cost of bigram (odd,end) is 13.3046916008
+Cost of bigram (odd,nod) is 13.3046916008
+Cost of bigram (odd,nd) is 13.3046916008
+Cost of bigram (odd,india) is 13.3046916008
+Cost of bigram (odd,undo) is 13.3046916008
+Cost of bigram (odd,und) is 13.3046916008
+Cost of bigram (odd,need) is 13.3046916008
+Current State: ('and', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (and,thou) is 11.1421660851
+Cost of bigram (and,the) is 6.07536051954
+Cost of bigram (and,oath) is 13.3393906624
+Cost of bigram (and,thee) is 12.6462434819
+Cost of bigram (and,th) is 12.6462434819
+Current State: ('need', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (need,thou) is 13.3048665844
+Cost of bigram (need,the) is 12.6117194038
+Cost of bigram (need,oath) is 13.3048665844
+Cost of bigram (need,thee) is 13.3048665844
+Cost of bigram (need,th) is 13.3048665844
+Current State: ('end', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (end,thou) is 13.3049782245
+Cost of bigram (end,the) is 11.0023931315
+Cost of bigram (end,oath) is 13.3049782245
+Cost of bigram (end,thee) is 13.3049782245
+Cost of bigram (end,th) is 13.3049782245
+Current State: ('india', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (india,thou) is 13.3046866009
+Cost of bigram (india,the) is 13.3046866009
+Cost of bigram (india,oath) is 13.3046866009
+Cost of bigram (india,thee) is 13.3046866009
+Cost of bigram (india,th) is 13.3046866009
+Current State: ('nd', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (nd,thou) is 13.3046849342
+Cost of bigram (nd,the) is 13.3046849342
+Cost of bigram (nd,oath) is 13.3046849342
+Cost of bigram (nd,thee) is 13.3046849342
+Cost of bigram (nd,th) is 13.3046849342
+Current State: ('nod', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (nod,thou) is 13.3046916008
+Cost of bigram (nod,the) is 13.3046916008
+Cost of bigram (nod,oath) is 13.3046916008
+Cost of bigram (nod,thee) is 13.3046916008
+Cost of bigram (nod,th) is 13.3046916008
+Current State: ('und', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (und,thou) is 13.3046882675
+Cost of bigram (und,the) is 13.3046882675
+Cost of bigram (und,oath) is 13.3046882675
+Cost of bigram (und,thee) is 13.3046882675
+Cost of bigram (und,th) is 13.3046882675
+Current State: ('undo', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (undo,thou) is 13.3046882675
+Cost of bigram (undo,the) is 12.611541087
+Cost of bigram (undo,oath) is 13.3046882675
+Cost of bigram (undo,thee) is 13.3046882675
+Cost of bigram (undo,th) is 13.3046882675
+Current State: ('the', 3)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (the,prince) is 8.19810822663
+Current State: ('thou', 3)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (thou,prince) is 12.6120626159
+Current State: ('th', 3)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (th,prince) is 13.304718267
+Current State: ('thee', 3)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (thee,prince) is 13.3048932458
+Current State: ('oath', 3)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (oath,prince) is 13.3046932675
+result: ['did', 'and', 'the', 'prince']
+Current State: ('-BEGIN-', 0)
+Edges for current word [frg]: set(['forgo', 'forage', 'frog'])
+Cost of bigram (-BEGIN-,forgo) is 12.6995547359
+Cost of bigram (-BEGIN-,forage) is 12.2940896278
+Cost of bigram (-BEGIN-,frog) is 13.3927019165
+Current State: ('forage', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (forage,and) is 13.3046949341
+Cost of bigram (forage,end) is 13.3046949341
+Cost of bigram (forage,nod) is 13.3046949341
+Cost of bigram (forage,nd) is 13.3046949341
+Cost of bigram (forage,india) is 13.3046949341
+Cost of bigram (forage,undo) is 13.3046949341
+Cost of bigram (forage,und) is 13.3046949341
+Cost of bigram (forage,need) is 13.3046949341
+Current State: ('forgo', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (forgo,and) is 13.3046866009
+Cost of bigram (forgo,end) is 13.3046866009
+Cost of bigram (forgo,nod) is 13.3046866009
+Cost of bigram (forgo,nd) is 13.3046866009
+Cost of bigram (forgo,india) is 13.3046866009
+Cost of bigram (forgo,undo) is 13.3046866009
+Cost of bigram (forgo,und) is 13.3046866009
+Cost of bigram (forgo,need) is 13.3046866009
+Current State: ('frog', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (frog,and) is 13.3046866009
+Cost of bigram (frog,end) is 13.3046866009
+Cost of bigram (frog,nod) is 13.3046866009
+Cost of bigram (frog,nd) is 13.3046866009
+Cost of bigram (frog,india) is 13.3046866009
+Cost of bigram (frog,undo) is 13.3046866009
+Cost of bigram (frog,und) is 13.3046866009
+Cost of bigram (frog,need) is 13.3046866009
+Current State: ('and', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (and,thou) is 11.1421660851
+Cost of bigram (and,the) is 6.07536051954
+Cost of bigram (and,oath) is 13.3393906624
+Cost of bigram (and,thee) is 12.6462434819
+Cost of bigram (and,th) is 12.6462434819
+Current State: ('end', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (end,thou) is 13.3049782245
+Cost of bigram (end,the) is 11.0023931315
+Cost of bigram (end,oath) is 13.3049782245
+Cost of bigram (end,thee) is 13.3049782245
+Cost of bigram (end,th) is 13.3049782245
+Current State: ('india', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (india,thou) is 13.3046866009
+Cost of bigram (india,the) is 13.3046866009
+Cost of bigram (india,oath) is 13.3046866009
+Cost of bigram (india,thee) is 13.3046866009
+Cost of bigram (india,th) is 13.3046866009
+Current State: ('nd', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (nd,thou) is 13.3046849342
+Cost of bigram (nd,the) is 13.3046849342
+Cost of bigram (nd,oath) is 13.3046849342
+Cost of bigram (nd,thee) is 13.3046849342
+Cost of bigram (nd,th) is 13.3046849342
+Current State: ('need', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (need,thou) is 13.3048665844
+Cost of bigram (need,the) is 12.6117194038
+Cost of bigram (need,oath) is 13.3048665844
+Cost of bigram (need,thee) is 13.3048665844
+Cost of bigram (need,th) is 13.3048665844
+Current State: ('nod', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (nod,thou) is 13.3046916008
+Cost of bigram (nod,the) is 13.3046916008
+Cost of bigram (nod,oath) is 13.3046916008
+Cost of bigram (nod,thee) is 13.3046916008
+Cost of bigram (nod,th) is 13.3046916008
+Current State: ('und', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (und,thou) is 13.3046882675
+Cost of bigram (und,the) is 13.3046882675
+Cost of bigram (und,oath) is 13.3046882675
+Cost of bigram (und,thee) is 13.3046882675
+Cost of bigram (und,th) is 13.3046882675
+Current State: ('undo', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (undo,thou) is 13.3046882675
+Cost of bigram (undo,the) is 12.611541087
+Cost of bigram (undo,oath) is 13.3046882675
+Cost of bigram (undo,thee) is 13.3046882675
+Cost of bigram (undo,th) is 13.3046882675
+Current State: ('the', 3)
+Edges for current word [kng]: set(['king'])
+Cost of bigram (the,king) is 10.1791096955
+Current State: ('thou', 3)
+Edges for current word [kng]: set(['king'])
+Cost of bigram (thou,king) is 13.3052097964
+Current State: ('th', 3)
+Edges for current word [kng]: set(['king'])
+Cost of bigram (th,king) is 13.304718267
+Current State: ('thee', 3)
+Edges for current word [kng]: set(['king'])
+Cost of bigram (thee,king) is 13.3048932458
+Current State: ('oath', 3)
+Edges for current word [kng]: set(['king'])
+Cost of bigram (oath,king) is 13.3046932675
+result: ['forage', 'and', 'the', 'king']
+Current State: ('-BEGIN-', 0)
+Edges for current word [rn]: set(['rien', 'run', 'ran', 'ruin', 'irina', 'earn', 'rain', 'roan', 'iron', 'rein'])
+Cost of bigram (-BEGIN-,rien) is 13.3927019165
+Cost of bigram (-BEGIN-,run) is 11.6009424473
+Cost of bigram (-BEGIN-,ran) is 10.827752559
+Cost of bigram (-BEGIN-,ruin) is 12.2940896278
+Cost of bigram (-BEGIN-,irina) is 13.3927019165
+Cost of bigram (-BEGIN-,earn) is 13.3927019165
+Cost of bigram (-BEGIN-,rain) is 12.0064075554
+Cost of bigram (-BEGIN-,roan) is 13.3927019165
+Cost of bigram (-BEGIN-,iron) is 12.6995547359
+Cost of bigram (-BEGIN-,rein) is 12.6995547359
+Current State: ('ran', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (ran,with) is 11.6956619357
+Current State: ('run', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (run,with) is 12.2062426311
+Current State: ('rain', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (rain,with) is 13.3047282666
+Current State: ('ruin', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (ruin,with) is 13.3047199336
+Current State: ('iron', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (iron,with) is 13.3046949341
+Current State: ('rein', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (rein,with) is 13.3046982674
+Current State: ('earn', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (earn,with) is 13.3046882675
+Current State: ('irina', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (irina,with) is 13.3046866009
+Current State: ('rien', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (rien,with) is 13.3046882675
+Current State: ('roan', 1)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (roan,with) is 13.3046866009
+Current State: ('with', 2)
+Edges for current word [th]: set(['thou', 'the', 'oath', 'thee', 'th'])
+Cost of bigram (with,thou) is 13.3139914935
+Cost of bigram (with,the) is 6.64195854806
+Cost of bigram (with,oath) is 13.3139914935
+Cost of bigram (with,thee) is 10.8290848437
+Cost of bigram (with,th) is 13.3139914935
+Current State: ('the', 3)
+Edges for current word [qn]: set(['quean', 'queen', 'quon', 'quun'])
+Cost of bigram (the,quean) is 13.3571635258
+Cost of bigram (the,queen) is 11.7477256134
+Cost of bigram (the,quon) is 13.3571635258
+Cost of bigram (the,quun) is 13.3571635258
+Current State: ('thee', 3)
+Edges for current word [qn]: set(['quean', 'queen', 'quon', 'quun'])
+Cost of bigram (thee,quean) is 13.3048932458
+Cost of bigram (thee,queen) is 13.3048932458
+Cost of bigram (thee,quon) is 13.3048932458
+Cost of bigram (thee,quun) is 13.3048932458
+Current State: ('oath', 3)
+Edges for current word [qn]: set(['quean', 'queen', 'quon', 'quun'])
+Cost of bigram (oath,quean) is 13.3046932675
+Cost of bigram (oath,queen) is 13.3046932675
+Cost of bigram (oath,quon) is 13.3046932675
+Cost of bigram (oath,quun) is 13.3046932675
+Current State: ('th', 3)
+Edges for current word [qn]: set(['quean', 'queen', 'quon', 'quun'])
+Cost of bigram (th,quean) is 13.304718267
+Cost of bigram (th,queen) is 13.304718267
+Cost of bigram (th,quon) is 13.304718267
+Cost of bigram (th,quun) is 13.304718267
+Current State: ('thou', 3)
+Edges for current word [qn]: set(['quean', 'queen', 'quon', 'quun'])
+Cost of bigram (thou,quean) is 13.3052097964
+Cost of bigram (thou,queen) is 13.3052097964
+Cost of bigram (thou,quon) is 13.3052097964
+Cost of bigram (thou,quun) is 13.3052097964
+Current State: ('queen', 4)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (queen,and) is 12.2060893121
+Cost of bigram (queen,end) is 13.3047016007
+Cost of bigram (queen,nod) is 13.3047016007
+Cost of bigram (queen,nd) is 13.3047016007
+Cost of bigram (queen,india) is 13.3047016007
+Cost of bigram (queen,undo) is 13.3047016007
+Cost of bigram (queen,und) is 13.3047016007
+Cost of bigram (queen,need) is 13.3047016007
+Current State: ('quean', 4)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (quean,and) is 13.3046866009
+Cost of bigram (quean,end) is 13.3046866009
+Cost of bigram (quean,nod) is 13.3046866009
+Cost of bigram (quean,nd) is 13.3046866009
+Cost of bigram (quean,india) is 13.3046866009
+Cost of bigram (quean,undo) is 13.3046866009
+Cost of bigram (quean,und) is 13.3046866009
+Cost of bigram (quean,need) is 13.3046866009
+Current State: ('quon', 4)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (quon,and) is 13.3046866009
+Cost of bigram (quon,end) is 13.3046866009
+Cost of bigram (quon,nod) is 13.3046866009
+Cost of bigram (quon,nd) is 13.3046866009
+Cost of bigram (quon,india) is 13.3046866009
+Cost of bigram (quon,undo) is 13.3046866009
+Cost of bigram (quon,und) is 13.3046866009
+Cost of bigram (quon,need) is 13.3046866009
+Current State: ('quun', 4)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (quun,and) is 13.3046882675
+Cost of bigram (quun,end) is 13.3046882675
+Cost of bigram (quun,nod) is 13.3046882675
+Cost of bigram (quun,nd) is 13.3046882675
+Cost of bigram (quun,india) is 13.3046882675
+Cost of bigram (quun,undo) is 13.3046882675
+Cost of bigram (quun,und) is 13.3046882675
+Cost of bigram (quun,need) is 13.3046882675
+Current State: ('and', 5)
+Edges for current word [swm]: set(['swim', 'swam'])
+Cost of bigram (and,swim) is 13.3393906624
+Cost of bigram (and,swam) is 13.3393906624
+Current State: ('end', 5)
+Edges for current word [swm]: set(['swim', 'swam'])
+Cost of bigram (end,swim) is 13.3049782245
+Cost of bigram (end,swam) is 13.3049782245
+Current State: ('india', 5)
+Edges for current word [swm]: set(['swim', 'swam'])
+Cost of bigram (india,swim) is 13.3046866009
+Cost of bigram (india,swam) is 13.3046866009
+Current State: ('nd', 5)
+Edges for current word [swm]: set(['swim', 'swam'])
+Cost of bigram (nd,swim) is 13.3046849342
+Cost of bigram (nd,swam) is 13.3046849342
+Current State: ('need', 5)
+Edges for current word [swm]: set(['swim', 'swam'])
+Cost of bigram (need,swim) is 13.3048665844
+Cost of bigram (need,swam) is 13.3048665844
+Current State: ('nod', 5)
+Edges for current word [swm]: set(['swim', 'swam'])
+Cost of bigram (nod,swim) is 13.3046916008
+Cost of bigram (nod,swam) is 13.3046916008
+Current State: ('und', 5)
+Edges for current word [swm]: set(['swim', 'swam'])
+Cost of bigram (und,swim) is 13.3046882675
+Cost of bigram (und,swam) is 13.3046882675
+Current State: ('undo', 5)
+Edges for current word [swm]: set(['swim', 'swam'])
+Cost of bigram (undo,swim) is 13.3046882675
+Cost of bigram (undo,swam) is 13.3046882675
+Current State: ('swam', 6)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (swam,with) is 13.3046866009
+Current State: ('swim', 6)
+Edges for current word [wth]: set(['with'])
+Cost of bigram (swim,with) is 13.3046899342
+Current State: ('with', 7)
+Edges for current word [jck]: set(['jack'])
+Cost of bigram (with,jack) is 13.3139914935
+result: ['ran', 'with', 'the', 'queen', 'and', 'swam', 'with', 'jack']
+Current State: ('-BEGIN-', 0)
+Edges for current word [lght]: set(['light', 'alight'])
+Cost of bigram (-BEGIN-,light) is 10.9948066437
+Cost of bigram (-BEGIN-,alight) is 12.2940896278
+Current State: ('light', 1)
+Edges for current word [blbs]: set(['zz$z$zz'])
+Cost of bigram (light,zz$z$zz) is 13.3049498991
+Current State: ('alight', 1)
+Edges for current word [blbs]: set(['zz$z$zz'])
+Cost of bigram (alight,zz$z$zz) is 13.3046899342
+Current State: ('zz$z$zz', 2)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (zz$z$zz,and) is 13.3046849342
+Cost of bigram (zz$z$zz,end) is 13.3046849342
+Cost of bigram (zz$z$zz,nod) is 13.3046849342
+Cost of bigram (zz$z$zz,nd) is 13.3046849342
+Cost of bigram (zz$z$zz,india) is 13.3046849342
+Cost of bigram (zz$z$zz,undo) is 13.3046849342
+Cost of bigram (zz$z$zz,und) is 13.3046849342
+Cost of bigram (zz$z$zz,need) is 13.3046849342
+Current State: ('and', 3)
+Edges for current word [chng]: set(['echoing', 'aching', 'change'])
+Cost of bigram (and,echoing) is 13.3393906624
+Cost of bigram (and,aching) is 13.3393906624
+Cost of bigram (and,change) is 12.6462434819
+Current State: ('end', 3)
+Edges for current word [chng]: set(['echoing', 'aching', 'change'])
+Cost of bigram (end,echoing) is 13.3049782245
+Cost of bigram (end,aching) is 13.3049782245
+Cost of bigram (end,change) is 13.3049782245
+Current State: ('india', 3)
+Edges for current word [chng]: set(['echoing', 'aching', 'change'])
+Cost of bigram (india,echoing) is 13.3046866009
+Cost of bigram (india,aching) is 13.3046866009
+Cost of bigram (india,change) is 13.3046866009
+Current State: ('nd', 3)
+Edges for current word [chng]: set(['echoing', 'aching', 'change'])
+Cost of bigram (nd,echoing) is 13.3046849342
+Cost of bigram (nd,aching) is 13.3046849342
+Cost of bigram (nd,change) is 13.3046849342
+Current State: ('need', 3)
+Edges for current word [chng]: set(['echoing', 'aching', 'change'])
+Cost of bigram (need,echoing) is 13.3048665844
+Cost of bigram (need,aching) is 13.3048665844
+Cost of bigram (need,change) is 13.3048665844
+Current State: ('nod', 3)
+Edges for current word [chng]: set(['echoing', 'aching', 'change'])
+Cost of bigram (nod,echoing) is 13.3046916008
+Cost of bigram (nod,aching) is 13.3046916008
+Cost of bigram (nod,change) is 13.3046916008
+Current State: ('und', 3)
+Edges for current word [chng]: set(['echoing', 'aching', 'change'])
+Cost of bigram (und,echoing) is 13.3046882675
+Cost of bigram (und,aching) is 13.3046882675
+Cost of bigram (und,change) is 13.3046882675
+Current State: ('undo', 3)
+Edges for current word [chng]: set(['echoing', 'aching', 'change'])
+Cost of bigram (undo,echoing) is 13.3046882675
+Cost of bigram (undo,aching) is 13.3046882675
+Cost of bigram (undo,change) is 13.3046882675
+result: ['light', 'zz$z$zz', 'and', 'change']
+Current State: ('-BEGIN-', 0)
+Edges for current word [ffcr]: set(['officier', 'officer'])
+Cost of bigram (-BEGIN-,officier) is 13.3927019165
+Cost of bigram (-BEGIN-,officer) is 9.92696601371
+Current State: ('officer', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (officer,and) is 9.93800391518
+Cost of bigram (officer,end) is 13.3052997452
+Cost of bigram (officer,nod) is 13.3052997452
+Cost of bigram (officer,nd) is 13.3052997452
+Cost of bigram (officer,india) is 13.3052997452
+Cost of bigram (officer,undo) is 13.3052997452
+Cost of bigram (officer,und) is 13.3052997452
+Cost of bigram (officer,need) is 13.3052997452
+Current State: ('officier', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (officier,and) is 13.3046866009
+Cost of bigram (officier,end) is 13.3046866009
+Cost of bigram (officier,nod) is 13.3046866009
+Cost of bigram (officier,nd) is 13.3046866009
+Cost of bigram (officier,india) is 13.3046866009
+Cost of bigram (officier,undo) is 13.3046866009
+Cost of bigram (officier,und) is 13.3046866009
+Cost of bigram (officier,need) is 13.3046866009
+Current State: ('and', 2)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (and,prince) is 9.51074926595
+Current State: ('end', 2)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (end,prince) is 13.3049782245
+Current State: ('india', 2)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (india,prince) is 13.3046866009
+Current State: ('nd', 2)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (nd,prince) is 13.3046849342
+Current State: ('need', 2)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (need,prince) is 13.3048665844
+Current State: ('nod', 2)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (nod,prince) is 13.3046916008
+Current State: ('und', 2)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (und,prince) is 13.3046882675
+Current State: ('undo', 2)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (undo,prince) is 13.3046882675
+Current State: ('prince', 3)
+Edges for current word [ndrw]: set(['andrew'])
+Cost of bigram (prince,andrew) is 6.5018864349
+result: ['officer', 'and', 'prince', 'andrew']
+Current State: ('-BEGIN-', 0)
+Edges for current word [ffcr]: set(['officier', 'officer'])
+Cost of bigram (-BEGIN-,officier) is 13.3927019165
+Cost of bigram (-BEGIN-,officer) is 9.92696601371
+Current State: ('officer', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (officer,and) is 9.93800391518
+Cost of bigram (officer,end) is 13.3052997452
+Cost of bigram (officer,nod) is 13.3052997452
+Cost of bigram (officer,nd) is 13.3052997452
+Cost of bigram (officer,india) is 13.3052997452
+Cost of bigram (officer,undo) is 13.3052997452
+Cost of bigram (officer,und) is 13.3052997452
+Cost of bigram (officer,need) is 13.3052997452
+Current State: ('officier', 1)
+Edges for current word [nd]: set(['and', 'end', 'nod', 'nd', 'india', 'undo', 'und', 'need'])
+Cost of bigram (officier,and) is 13.3046866009
+Cost of bigram (officier,end) is 13.3046866009
+Cost of bigram (officier,nod) is 13.3046866009
+Cost of bigram (officier,nd) is 13.3046866009
+Cost of bigram (officier,india) is 13.3046866009
+Cost of bigram (officier,undo) is 13.3046866009
+Cost of bigram (officier,und) is 13.3046866009
+Cost of bigram (officier,need) is 13.3046866009
+Current State: ('and', 2)
+Edges for current word [shrt]: set(['short', 'shirt'])
+Cost of bigram (and,short) is 12.6462434819
+Cost of bigram (and,shirt) is 12.6462434819
+Current State: ('end', 2)
+Edges for current word [shrt]: set(['short', 'shirt'])
+Cost of bigram (end,short) is 13.3049782245
+Cost of bigram (end,shirt) is 13.3049782245
+Current State: ('india', 2)
+Edges for current word [shrt]: set(['short', 'shirt'])
+Cost of bigram (india,short) is 13.3046866009
+Cost of bigram (india,shirt) is 13.3046866009
+Current State: ('nd', 2)
+Edges for current word [shrt]: set(['short', 'shirt'])
+Cost of bigram (nd,short) is 13.3046849342
+Cost of bigram (nd,shirt) is 13.3046849342
+Current State: ('need', 2)
+Edges for current word [shrt]: set(['short', 'shirt'])
+Cost of bigram (need,short) is 13.3048665844
+Cost of bigram (need,shirt) is 13.3048665844
+Current State: ('nod', 2)
+Edges for current word [shrt]: set(['short', 'shirt'])
+Cost of bigram (nod,short) is 13.3046916008
+Cost of bigram (nod,shirt) is 13.3046916008
+Current State: ('und', 2)
+Edges for current word [shrt]: set(['short', 'shirt'])
+Cost of bigram (und,short) is 13.3046882675
+Cost of bigram (und,shirt) is 13.3046882675
+Current State: ('undo', 2)
+Edges for current word [shrt]: set(['short', 'shirt'])
+Cost of bigram (undo,short) is 13.3046882675
+Cost of bigram (undo,shirt) is 13.3046882675
+Current State: ('shirt', 3)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (shirt,prince) is 13.3047449324
+Current State: ('short', 3)
+Edges for current word [prnc]: set(['prince'])
+Cost of bigram (short,prince) is 13.3048765825
+result: ['officer', 'and', 'shirt', 'prince']
+Current State: ('-BEGIN-', 0)
+Edges for current word [ntrntnl]: set(['international'])
+Cost of bigram (-BEGIN-,international) is 12.2940896278
+result: ['international']
+Current State: ('-BEGIN-', 0)
+Edges for current word [smthng]: set(['something', 'smoothing'])
+Cost of bigram (-BEGIN-,something) is 9.01067528183
+Cost of bigram (-BEGIN-,smoothing) is 12.2940896278
+result: ['something']
+Current State: ('-BEGIN-', 0)
+Edges for current word [btfl]: set(['beautiful'])
+Cost of bigram (-BEGIN-,beautiful) is 10.9948066437
+result: ['beautiful']
+----- END PART 2b-4-hidden [took 0:00:00.002125 (max 3 seconds), --/3 points]
+----- START PART 3b-1-basic
+Exception thrown: <type 'exceptions.Exception'> -- Not implemented yet
+  File "grader.py", line 297, in t_3b_1
+    grader.requireIsEqual('word', submission.segmentAndInsert('wrd', bigramCost, fills))
+
+  File "/home/sarandia/CS221/reconstruct/submission.py", line 132, in segmentAndInsert
+    raise Exception("Not implemented yet")
+
+----- END PART 3b-1-basic [took 0:00:00.000221 (max 2 seconds), 0/1 points]
+----- START PART 3b-2-basic
+Exception thrown: <type 'exceptions.Exception'> -- Not implemented yet
+  File "grader.py", line 318, in t_3b_2
+    submission.segmentAndInsert('wrd', bigramCost, fills))
+
+  File "/home/sarandia/CS221/reconstruct/submission.py", line 132, in segmentAndInsert
+    raise Exception("Not implemented yet")
+
+----- END PART 3b-2-basic [took 0:00:00.000047 (max 2 seconds), 0/1 points]
+----- START PART 3b-3-hidden
+Exception thrown: <type 'exceptions.Exception'> -- Not implemented yet
+  File "grader.py", line 343, in t_3b_3
+    solution1 = submission.segmentAndInsert('wrd', bigramCost, fills)
+
+  File "/home/sarandia/CS221/reconstruct/submission.py", line 132, in segmentAndInsert
+    raise Exception("Not implemented yet")
+
+----- END PART 3b-3-hidden [took 0:00:00.000041 (max 3 seconds), --/6 points]
+----- START PART 3b-4-hidden
+Exception thrown: <type 'exceptions.Exception'> -- Not implemented yet
+  File "grader.py", line 370, in t_3b_4
+    solution1 = submission.segmentAndInsert('zzzzz', bigramCost, possibleFills)
+
+  File "/home/sarandia/CS221/reconstruct/submission.py", line 132, in segmentAndInsert
+    raise Exception("Not implemented yet")
+
+----- END PART 3b-4-hidden [took 0:00:00.000034 (max 3 seconds), --/6 points]
+----- START PART 3b-5-hidden
+Exception thrown: <type 'exceptions.Exception'> -- Not implemented yet
+  File "grader.py", line 384, in t_3b_5
+    pred = [submission.segmentAndInsert(part, smoothCost, possibleFills) for part in parts]
+
+  File "/home/sarandia/CS221/reconstruct/submission.py", line 132, in segmentAndInsert
+    raise Exception("Not implemented yet")
+
+----- END PART 3b-5-hidden [took 0:00:00.000050 (max 3 seconds), --/6 points]
+Note that the hidden test cases do not check for correctness.
+They are provided for you to verify that the functions do not crash and run within the time limit.
+Points for these parts not assigned by the grader (indicated by "--").
+========== END GRADING [3/5 points graded]
+grader-manual.out already exists
+Total max points: 44

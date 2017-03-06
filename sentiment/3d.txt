@@ -1,0 +1,73 @@
+This document provides response to Question 3d.
+
+Analysis of incorrect predictions:
+
+1. === home alone goes hollywood , a funny premise until the kids start pulling off stunts not even steven spielberg would know how to do . besides , real movie producers aren't this nice .
+Truth: -1, Prediction: 1 [WRONG]
+
+    Reason for error: This review is clearly sarcastic with quite a few positive words, such as "funny", "real", "nice", etc, which could have confused the predictor.
+
+    The classifier needs to use phrases rather than single words as features to "understand" the sarcastic reviews that sometimes use positive words.
+
+2. === a heady , biting , be-bop ride through nighttime manhattan , a loquacious videologue of the modern male and the lengths to which he'll go to weave a protective cocoon around his own ego 
+Truth: 1, Prediction: -1 [WRONG]
+
+    Reason for error: This review uses too many rare words such that they were not learned from the training sample.
+
+    To fix this, the classifier needs example reviews containing these words.
+
+3. === 'it's painful to watch witherspoon's talents wasting away inside unnecessary films like legally blonde and sweet home abomination , i mean , alabama . '
+Truth: -1, Prediction: 1 [WRONG]
+
+    Reason for error: It appears that the movie names contain positive words with heavy weights, such as sweet, films, home, etc.
+
+    If we were provided with the names of all movies, we could filter them out.
+
+4. === wickedly funny , visually engrossing , never boring , this movie challenges us to think about the ways we consume pop culture .
+Truth: 1, Prediction: -1 [WRONG]
+
+    Reason for error: Context wasn't taken into account so that e.g. "never boring" drags the score down a lot whilst it's actually a positive phrase.
+
+    If we also take phrases as features it would improve the predictions in this situation.
+
+5. === patchy combination of soap opera , low-tech magic realism and , at times , ploddingly sociological commentary .
+Truth: -1, Prediction: 1 [WRONG]
+
+    Reason for error: Context was not taken into account, some rare words weren't learned in the first place but they convey a lot of meaning.
+
+    We could provide more training samples containing those rare words, and extract more features such as phrases.
+
+6. === only in its final surprising shots does rabbit-proof fence find the authority it's looking for .
+Truth: -1, Prediction: 1 [WRONG]
+
+    Reason for error: This review doesn't have adjectives describing directly how the movie is. It is using an analog/something in the movie to convey how ridiculous the plot is.
+
+    The prediction in the case can be improved by having more training samples.
+
+7. === alternative medicine obviously has its merits . . . but ayurveda does the field no favors .
+Truth: -1, Prediction: 1 [WRONG]
+
+    Reason: The review uses "but" to make a turn in its attitude.
+
+    We should extract phrases containing "but" and the words following it.
+
+8. === no screen fantasy-adventure in recent memory has the showmanship of clones' last 45 minutes .
+Truth: 1, Prediction: -1 [WRONG]
+
+    Reason: Positive words such as fantasy-adventure and showmenship were not learned.
+
+    We need more training samples. Also, we need to split the dash to make two separate words, which are more likely to have been learned.
+
+9. o ótimo esforço do diretor acaba sendo frustrado pelo roteiro , que , depois de levar um bom tempo para colocar a trama em andamento , perde-se de vez a partir do instante em que os estranhos acontecimentos são explicados .
+Truth: -1, Prediction: 1 [WRONG]
+
+    Reason: The vast majority of the training samples are in English, while this review is in Spanish. As a result, most of the words' weights were not learned at all.
+
+    We need to have more training samples in Spanish.
+
+10. === this may be the dumbest , sketchiest movie on record about an aspiring writer's coming-of-age .
+Truth: -1, Prediction: 1 [WRONG]
+
+    Reason: The very last few words are about the content of the movie, but most of them are positive. However, they have no impact on the overall positiveness of the review.
+
+    We could include phrases consist of "about" and the words following it.

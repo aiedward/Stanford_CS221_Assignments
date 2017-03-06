@@ -1,0 +1,15 @@
+We can run the regular K-means algorithm until convergence, then fix the incorrect clustering.
+
+1. Run regular k-means algorithm until convergence.
+
+2. If two points are assigned to different clusters while it's pre-specified that they should belong to the same cluster, continue to step 3. Otherwise simply return. We call these two points p1 and p2 in this algorithm description. Suppose after step 1, p1 belongs to centroid A and p2 belongs to centroid B.
+
+3. Find the midpoint between p1 and p2. We call this point midpt.
+
+4. Find if A or B is closer to midpt than the other. We suppose that A is closer to midpt than B in this example.
+
+5. Move A to midpt, while assign some random data points to B to re-initialize it.
+
+6. Run k-means again with these two new centroids until convergence. See if the precondition is met.
+
+7. If not, start over from step 3.

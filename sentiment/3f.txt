@@ -1,0 +1,7 @@
+From my experiment with test 3b-2, I found that the test error is minimized with n = 7.
+
+Since the character n-gram gives much more features than the word features, it can overfit. Also, although the character n-gram is able to capture some of the contextual information such as "not good", which the word feature extractor cannot catch, it also produces a lot of redundant features that do not contribute to the prediction.
+
+Review: The movie does a decent job at esthetics.
+
+Reason: This review uses the spelling "esthetics" which is an uncommon form of the word "aesthetics". The character n-gram is better because it'd still be able to relate this review to the examples in the learning dataset that use "aesthetics".

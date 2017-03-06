@@ -1,0 +1,231 @@
+========== START GRADING
+----- START PART writeupValid: 
+File 'pacman.pdf' does not exist
+----- END PART writeupValid [took 0:00:00.000047 (max allowed 5 seconds), 0/0 points]
+
+----- START PART 1b-1-basic: Tests minimax for timeout on smallClassic.
+*** Running minimax (depth 2) on smallClassic 1 time(s).
+Pacman died! Score: -308
+Average Score: -308.0
+Scores:        -308
+Win Rate:      0/1 (0.00)
+Record:        Loss
+*** Finished running minimax (depth 2) on smallClassic after 0 seconds.
+*** Won 0 out of 1 games. Average score: -308.000000 ***
+----- END PART 1b-1-basic [took 0:00:00.049864 (max allowed 10 seconds), 4/4 points]
+
+----- START PART 1b-1-hidden: Tests minimax for off by one bug on smallClassic.
+Running our grader (hidden from you)...
+----- END PART 1b-1-hidden [took 0:00:00.000078 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 1b-2-hidden: Tests minimax for search depth bug on smallClassic.
+----- END PART 1b-2-hidden [took 0:00:00.000007 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 1b-3-hidden: Tests minimax for suboptimal moves on smallClassic.
+----- END PART 1b-3-hidden [took 0:00:00.000005 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 2a-0: Tests alphabeta for timeout on smallClassic.
+*** Running alphabeta (depth 2) on smallClassic 1 time(s).
+Pacman died! Score: -338
+Average Score: -338.0
+Scores:        -338
+Win Rate:      0/1 (0.00)
+Record:        Loss
+*** Finished running alphabeta (depth 2) on smallClassic after 0 seconds.
+*** Won 0 out of 1 games. Average score: -338.000000 ***
+----- END PART 2a-0 [took 0:00:00.021642 (max allowed 5 seconds), 4/4 points]
+
+----- START PART 2a-1-hidden: Tests alphabeta for off by one bug on smallClassic.
+Running our grader (hidden from you)...
+----- END PART 2a-1-hidden [took 0:00:00.000107 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 2a-2-hidden: Tests alphabeta for search depth bug on smallClassic.
+----- END PART 2a-2-hidden [took 0:00:00.000008 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 2a-3-hidden: Tests alphabeta for suboptimal moves on smallClassic.
+----- END PART 2a-3-hidden [took 0:00:00.000006 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 3b-0-basic: Tests expectimax for timeout on smallClassic.
+*** Running expectimax (depth 2) on smallClassic 1 time(s).
+Exception thrown: <type 'exceptions.Exception'> -- Not implemented yet
+  File "grader.py", line 148, in <lambda>
+    grader.addBasicPart('3b-0-basic', lambda : test0('expectimax'), 4, maxSeconds=maxSeconds, description='Tests expectimax for timeout on smallClassic.')
+
+  File "grader.py", line 68, in test0
+    stats = run('smallClassic', submission.ExpectimaxAgent(depth=2), [DirectionalGhost(i + 1) for i in range(2)], name='%s (depth %d)' % ('expectimax', 2))
+
+  File "grader.py", line 36, in run
+    games = pacman.runGames(lay, pac, ghosts, disp, nGames, False, catchExceptions=False)
+
+  File "/home/sarandia/CS221/pacman/pacman.py", line 623, in runGames
+    game.run()
+
+  File "/home/sarandia/CS221/pacman/game.py", line 652, in run
+    action = agent.getAction(observation)
+
+  File "/home/sarandia/CS221/pacman/submission.py", line 276, in getAction
+    raise Exception("Not implemented yet")
+
+----- END PART 3b-0-basic [took 0:00:00.001032 (max allowed 10 seconds), 0/4 points]
+
+----- START PART 3b-1-hidden: Tests expectimax for off by one bug on smallClassic.
+Running our grader (hidden from you)...
+----- END PART 3b-1-hidden [took 0:00:00.000052 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 3b-2-hidden: Tests expectimax for search depth bug on smallClassic.
+----- END PART 3b-2-hidden [took 0:00:00.000007 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 3b-3-hidden: Tests expectimax for suboptimal moves on smallClassic.
+----- END PART 3b-3-hidden [took 0:00:00.000005 (max allowed 10 seconds), ???/2 points (hidden test ungraded)]
+
+----- START PART 4a-1-basic (extra credit): Check if score at least 1300 on smallClassic.
+Running your agent 20 times to compute the average score...
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Average Score: 0.0
+Scores:        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Win Rate:      0/20 (0.00)
+Record:        Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss
+Your better evaluation function never won any games.
+----- END PART 4a-1-basic [took 0:00:00.012516 (max allowed 5 seconds), 0/1 points]
+
+----- START PART 4a-2-basic (extra credit): Check if score at least 1400 on smallClassic.
+Running your agent 20 times to compute the average score...
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Average Score: 0.0
+Scores:        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Win Rate:      0/20 (0.00)
+Record:        Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss
+Your better evaluation function never won any games.
+----- END PART 4a-2-basic [took 0:00:00.014615 (max allowed 5 seconds), 0/1 points]
+
+----- START PART 4a-3-basic (extra credit): Check if score at least 1500 on smallClassic.
+Running your agent 20 times to compute the average score...
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Average Score: 0.0
+Scores:        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Win Rate:      0/20 (0.00)
+Record:        Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss
+Your better evaluation function never won any games.
+----- END PART 4a-3-basic [took 0:00:00.013628 (max allowed 5 seconds), 0/1 points]
+
+----- START PART 4a-4-basic (extra credit): Check if score at least 1600 on smallClassic.
+Running your agent 20 times to compute the average score...
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Average Score: 0.0
+Scores:        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Win Rate:      0/20 (0.00)
+Record:        Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss
+Your better evaluation function never won any games.
+----- END PART 4a-4-basic [took 0:00:00.013343 (max allowed 5 seconds), 0/1 points]
+
+----- START PART 4a-5-basic (extra credit): Check if score at least 1700 on smallClassic.
+Running your agent 20 times to compute the average score...
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Pacman crashed
+Average Score: 0.0
+Scores:        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Win Rate:      0/20 (0.00)
+Record:        Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss
+Your better evaluation function never won any games.
+----- END PART 4a-5-basic [took 0:00:00.020012 (max allowed 5 seconds), 0/1 points]
+
+Note that the hidden test cases do not check for correctness.
+They are provided for you to verify that the functions do not crash and run within the time limit.
+Points for these parts not assigned by the grader (indicated by "--").
+========== END GRADING [8/12 points (auto/coding only) + 0/5 extra credit]
+Wrote results to grader-auto.out
+Total max points (basic auto/coding + hidden auto/coding + manual/written): 12 + 18 + 10 = 40
