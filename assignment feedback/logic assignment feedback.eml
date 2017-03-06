@@ -1,0 +1,232 @@
+MIME-Version: 1.0
+Date: Sun, 18 Dec 2016 01:37:36 -0800
+From: Isaac Rayburn Caswell <icaswell@Stanford.EDU>
+Subject: CS221 assignment [logic] feedback on ALL tests: 50.0/50.0 points
+ (extra credit: 8.0/12.0)
+Thread-Topic: CS221 assignment [logic] feedback on ALL tests: 50.0/50.0
+ points (extra credit: 8.0/12.0)
+To: Ziyuan Chen <ziyuanc@stanford.edu>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style></head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;"><div class=3D"PlainText">H=
+ello Ziyuan Chen,<br>
+<br>
+We received your logic submission [Sat Dec 10 21:12:15 2016], which uses 1 =
+late day(s).<br>
+<br>
+You have made 2 submissions out of 10 maximum attempts.<br>
+<br>
+We ran your code on ALL tests and you got 50.0/50.0 points (extra credit: 8=
+.0/12.0).&nbsp; See below for details.<br>
+<br>
+! If you have any questions about the grades, please contact Dylan Moore &l=
+t;dmoore2@stanford.edu&gt;.<br>
+<br>
+* 1a: Test formula 1a implementation<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+&nbsp; &gt; You matched the 7 models<br>
+&nbsp; &gt; Example model: set(['Summer'])<br>
+<br>
+* 1b: Test formula 1b implementation<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+&nbsp; &gt; You matched the 4 models<br>
+&nbsp; &gt; Example model: set([])<br>
+<br>
+* 1c: Test formula 1c implementation<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+&nbsp; &gt; You matched the 2 models<br>
+&nbsp; &gt; Example model: set(['Day'])<br>
+<br>
+* 2a: Test formula 2a implementation<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+&nbsp; &gt; You matched the 343 models<br>
+&nbsp; &gt; Example model: set(['Mother(o3,o2)', 'Mother(o1,o2)', 'Mother(o=
+1,o3)'])<br>
+<br>
+* 2b: Test formula 2b implementation<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+&nbsp; &gt; You matched the 169 models<br>
+&nbsp; &gt; Example model: set(['Person(o1)', 'Person(o3)', 'Child(o2,o3)']=
+)<br>
+<br>
+* 2c: Test formula 2c implementation<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+&nbsp; &gt; You matched the 512 models<br>
+&nbsp; &gt; Example model: set(['Child(o3,o2)', 'Child(o1,o3)', 'Child(o2,o=
+1)'])<br>
+<br>
+* 2d: Test formula 2d implementation<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+&nbsp; &gt; You matched the 512 models<br>
+&nbsp; &gt; Example model: set(['Parent(o1,o2)', 'Parent(o3,o2)', 'Parent(o=
+1,o3)'])<br>
+<br>
+* 3a-0: test implementation of statement 0 for 3a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 2 models<br>
+&nbsp; &gt; Example model: set(['TellTruth(john)'])<br>
+<br>
+* 3a-1: test implementation of statement 1 for 3a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 2 models<br>
+&nbsp; &gt; Example model: set([])<br>
+<br>
+* 3a-2: test implementation of statement 2 for 3a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 2 models<br>
+&nbsp; &gt; Example model: set([])<br>
+<br>
+* 3a-3: test implementation of statement 3 for 3a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 2 models<br>
+&nbsp; &gt; Example model: set(['TellTruth(nicole)'])<br>
+<br>
+* 3a-4: test implementation of statement 4 for 3a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 4 models<br>
+&nbsp; &gt; Example model: set(['TellTruth(john)'])<br>
+<br>
+* 3a-5: test implementation of statement 5 for 3a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 4 models<br>
+&nbsp; &gt; Example model: set(['CrashedServer(john)'])<br>
+<br>
+* 3a-all: test implementation of all for 3a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 1 models<br>
+&nbsp; &gt; Example model: set(['CrashedServer(john)', 'TellTruth(nicole)']=
+)<br>
+<br>
+* 3a-run: test implementation of run for 3a<br>
+1 points (max attainable: 1), took 1 seconds (max allowed: 10000 seconds)<b=
+r>
+<br>
+* 4a: Test CNF conversion and new Modus ponens rule to derive C<br>
+5 points (max attainable: 5)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 4b: Test usage of the resolution rule to derive D<br>
+5 points (max attainable: 5)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 5a-0: test implementation of statement 0 for 5a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 8 models<br>
+&nbsp; &gt; Example model: set(['Successor(o3,o1)', 'Successor(o1,o2)', 'Su=
+ccessor(o2,o3)'])<br>
+<br>
+* 5a-1: test implementation of statement 1 for 5a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 8 models<br>
+&nbsp; &gt; Example model: set(['Odd(o2)', 'Even(o1)', 'Even(o3)'])<br>
+<br>
+* 5a-2: test implementation of statement 2 for 5a<br>
+1 points (max attainable: 1), took 3 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 13009 models<br>
+&nbsp; &gt; Example model: set(['Odd(o3)', 'Successor(o3,o1)', 'Odd(o1)', '=
+Successor(o3,o3)', 'Successor(o1,o3)', 'Successor(o2,o1)', 'Successor(o1,o1=
+)'])<br>
+<br>
+* 5a-3: test implementation of statement 3 for 5a<br>
+1 points (max attainable: 1), took 3 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 13009 models<br>
+&nbsp; &gt; Example model: set(['Successor(o3,o2)', 'Successor(o2,o2)', 'Su=
+ccessor(o2,o3)', 'Odd(o2)', 'Even(o3)', 'Even(o2)', 'Successor(o1,o2)', 'Su=
+ccessor(o3,o3)', 'Successor(o1,o1)'])<br>
+<br>
+* 5a-4: test implementation of statement 4 for 5a<br>
+1 points (max attainable: 1), took 5 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 19683 models<br>
+&nbsp; &gt; Example model: set(['Successor(o3,o2)', 'Larger(o2,o2)', 'Large=
+r(o1,o2)', 'Larger(o3,o1)', 'Larger(o3,o2)', 'Larger(o2,o3)', 'Larger(o3,o3=
+)', 'Larger(o1,o3)'])<br>
+<br>
+* 5a-5: test implementation of statement 5 for 5a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 171 models<br>
+&nbsp; &gt; Example model: set(['Larger(o1,o1)', 'Larger(o3,o2)', 'Larger(o=
+3,o1)', 'Larger(o1,o2)'])<br>
+<br>
+* 5a-all: test implementation of all for 5a<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 10000 seconds)<b=
+r>
+&nbsp; &gt; You matched the 36 models<br>
+&nbsp; &gt; Example model: set(['Larger(o2,o1)', 'Successor(o3,o2)', 'Succe=
+ssor(o2,o3)', 'Odd(o3)', 'Even(o1)', 'Larger(o2,o2)', 'Larger(o2,o3)', 'Eve=
+n(o2)', 'Larger(o3,o2)', 'Larger(o3,o3)', 'Successor(o1,o3)', 'Larger(o3,o1=
+)'])<br>
+<br>
+* 5a-run: test implementation of run for 5a<br>
+1 points (max attainable: 1), took 1 seconds (max allowed: 10000 seconds)<b=
+r>
+<br>
+* 5b: Test argument that there is no finite model where all 7 formulas are =
+consistent<br>
+10 points (max attainable: 10)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 6a-1: Check basic behavior of rule<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+<br>
+* 6a-2: Check basic behavior of rule<br>
+0 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+&nbsp; &gt; Expected 'CONTINGENT', but got 'ENTAILMENT'<br>
+<br>
+* 6a-3: Check basic behavior of rule<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+<br>
+* 6a-4: Check basic behavior of rule<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+<br>
+* 6a-5: Check basic behavior of rule<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+<br>
+* 6b-1: Check basic behavior of rule<br>
+0 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+&nbsp; &gt; Expected 'ENTAILMENT', but got 'CONTINGENT'<br>
+<br>
+* 6b-2: Check basic behavior of rule<br>
+0 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+&nbsp; &gt; Expected 'ENTAILMENT', but got 'CONTINGENT'<br>
+<br>
+* 6b-3: Check basic behavior of rule<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+<br>
+* 6c-1: Check basic behavior of rule<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+<br>
+* 6c-2: Check basic behavior of rule<br>
+0 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+&nbsp; &gt; Expected 'ENTAILMENT', but got 'CONTINGENT'<br>
+<br>
+* 6c-3: Check basic behavior of rule<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+<br>
+* 6c-4: Check basic behavior of rule<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 60 seconds)<br>
+<br>
+CS221 course staff<br>
+</div></span></font>
+</body>
+</html>

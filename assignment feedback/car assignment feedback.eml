@@ -1,0 +1,112 @@
+MIME-Version: 1.0
+Date: Tue, 13 Dec 2016 16:09:41 -0800
+From: Isaac Rayburn Caswell <icaswell@Stanford.EDU>
+Subject: CS221 assignment [car] feedback on ALL tests: 48.0/50.0 points
+ (extra credit: 0.0/6.0)
+Thread-Topic: CS221 assignment [car] feedback on ALL tests: 48.0/50.0
+ points (extra credit: 0.0/6.0)
+To: Ziyuan Chen <ziyuanc@stanford.edu>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style></head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;"><div class=3D"PlainText">H=
+ello Ziyuan Chen,<br>
+<br>
+We received your car submission [Thu Nov 17 22:00:08 2016], which uses 2 la=
+te day(s).<br>
+<br>
+You have made 1 submissions out of 10 maximum attempts.<br>
+<br>
+We ran your code on ALL tests and you got 48.0/50.0 points (extra credit: 0=
+.0/6.0).&nbsp; See below for details.<br>
+<br>
+! If you have any questions about the grades, please contact Pujun &lt;puju=
+n@stanford.edu&gt;.<br>
+<br>
+* 1a: 1a writeup<br>
+2 points (max attainable: 2)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 1b: 1b writeup<br>
+2 points (max attainable: 2)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 1c: 1c writeup<br>
+2.0 points (max attainable: 3)<br>
+&nbsp; &gt; part iii incorrect<br>
+<br>
+* 2a-0-basic: 2a basic test for emission probabilities<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 2a-1-hidden: 2a test ordering of pdf<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 2a-2-hidden: 2a advanced test for emission probabilities<br>
+3 points (max attainable: 3), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 3a-0-basic: test correctness of elapseTime()<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 3a-1i-hidden: advanced test for transition probabilities, strict time lim=
+it<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 3a-1ii-hidden: 3a test for transition probabilities on other maps, loose =
+time limit<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 20 seconds)<br>
+<br>
+* 3a-2-hidden: advanced test for emission AND transition probabilities, str=
+ict time limit<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-0-basic: 4a basic test for PF observe<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-1-basic: 4a basic test for PF elapseTime<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-2-basic: 4a basic test for PF observe AND elapseTime<br>
+3 points (max attainable: 3), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-3i-hidden: 4a advanced test for PF observe<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-3ii-hidden: 4a test for pdf ordering<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-4-hidden: advanced test for PF elapseTime<br>
+3 points (max attainable: 3), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-5-hidden: advanced test for PF observe AND elapseTime<br>
+4 points (max attainable: 4), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 5a: conditional distribution<br>
+5 points (max attainable: 5)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 5b: number of assignments K!<br>
+4 points (max attainable: 4)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 5c: treewidth<br>
+1.0 points (max attainable: 2)<br>
+&nbsp; &gt; correct expression but incomplete explanation<br>
+<br>
+* 5d: efficient algorithm for wrap around<br>
+0 points (max attainable: 6)<br>
+&nbsp; &gt; You left your answer blank.<br>
+<br>
+* writeupValid: <br>
+0 points (max attainable: 0), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+CS221 course staff<br>
+</div></span></font>
+</body>
+</html>

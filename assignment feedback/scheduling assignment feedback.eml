@@ -1,0 +1,129 @@
+MIME-Version: 1.0
+Date: Wed, 16 Nov 2016 01:41:43 -0800
+From: Isaac Rayburn Caswell <icaswell@Stanford.EDU>
+Subject: CS221 assignment [scheduling] feedback on ALL tests: 49.0/50.0
+ points (extra credit: 0.0/8.0)
+Thread-Topic: CS221 assignment [scheduling] feedback on ALL tests:
+ 49.0/50.0 points (extra credit: 0.0/8.0)
+To: Ziyuan Chen <ziyuanc@stanford.edu>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style></head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;"><div class=3D"PlainText">H=
+ello Ziyuan Chen,<br>
+<br>
+We received your scheduling submission [Wed Nov&nbsp; 9 22:36:55 2016], whi=
+ch uses 1 late day(s).<br>
+<br>
+You have made 1 submissions out of 10 maximum attempts.<br>
+<br>
+We ran your code on ALL tests and you got 49.0/50.0 points (extra credit: 0=
+.0/8.0).&nbsp; See below for details.<br>
+<br>
+! If you have any questions about the grades, please contact Yixin Cai &lt;=
+yixincai@stanford.edu&gt;.<br>
+<br>
+* 0a: Define light bulb CSP<br>
+4 points (max attainable: 4)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 0b: Solving the CSP<br>
+4 points (max attainable: 4)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 0c-1-basic: Basic test for create_chain_csp<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1a-1-basic: Basic test for create_nqueens_csp for n=3D8<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1a-2-hidden: Test create_nqueens_csp with n=3D3<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1a-3-hidden: Test create_nqueens_csp with different n<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1b-1-basic: Basic test for MCV with n-queens CSP<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1b-2-hidden: Test for MCV with n-queens CSP<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1b-3-hidden: Test MCV with different CSPs<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1c-1-basic: Basic test for AC-3 with n-queens CSP<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1c-2-hidden: Test AC-3 for map coloring CSP<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1c-3-hidden: Test MCV&#43;AC-3 for n-queens CSP with n=3D8<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1c-4-hidden: Test MCV&#43;AC-3 for n-queens CSP with n=3D7<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 1c-5-hidden: Test MCV&#43;AC-3 for map coloring CSP<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 2a: Writeup of 2a<br>
+3.0 points (max attainable: 4)<br>
+&nbsp; &gt; Did not state the domains of auxiliary variables.<br>
+<br>
+* 2b-1-basic: Basic test for get_sum_variable<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 2b-2-hidden: Test get_sum_variable with empty list of variables<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 2b-3-hidden: Test get_sum_variable with different variables<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3a-1-basic: Basic test for add_quarter_constraints<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 4 seconds)<br>
+<br>
+* 3a-2-hidden: Test add_quarter_constraints with different profiles<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 3 seconds)<br>
+<br>
+* 3a-3-hidden: Test add_quarter_constraints with no quarter specified<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 3 seconds)<br>
+<br>
+* 3b-1-basic: Basic test for add_unit_constraints<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 7 seconds)<br>
+<br>
+* 3b-2-hidden: Test add_unit_constraints with different profiles<br>
+3 points (max attainable: 3), took 0 seconds (max allowed: 3 seconds)<br>
+<br>
+* 3b-3-hidden: Test unsatisfiable scheduling<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 4 seconds)<br>
+<br>
+* 3b-4-hidden: Test MVC&#43;AC-3&#43;all additional constraints<br>
+3 points (max attainable: 3), took 2 seconds (max allowed: 25 seconds)<br>
+<br>
+* 3c: Your own schedule<br>
+2 points (max attainable: 2)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 4a: Worst-case treewidth<br>
+0.0 points (max attainable: 2)<br>
+&nbsp; &gt; Incorrect or incomplete solution<br>
+<br>
+* 4b: Efficient algorithm<br>
+0 points (max attainable: 6)<br>
+&nbsp; &gt; You left your answer blank.<br>
+<br>
+* writeupValid: <br>
+0 points (max attainable: 0), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+CS221 course staff<br>
+</div></span></font>
+</body>
+</html>

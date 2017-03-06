@@ -1,0 +1,94 @@
+MIME-Version: 1.0
+Date: Sat, 5 Nov 2016 00:19:28 -0800
+From: Isaac Rayburn Caswell <icaswell@stanford.edu>
+Subject: CS221 assignment [blackjack] feedback on ALL tests: 44.0/50.0
+ points (extra credit: 0.0/0.0)
+Thread-Topic: CS221 assignment [blackjack] feedback on ALL tests: 44.0/50.0
+ points (extra credit: 0.0/0.0)
+To: Ziyuan Chen <ziyuanc@stanford.edu>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style></head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;"><div class=3D"PlainText">H=
+ello Ziyuan Chen,<br>
+<br>
+We received your blackjack submission [Wed Oct 26 14:44:52 2016], which use=
+s 1 late day(s).<br>
+<br>
+You have made 3 submissions out of 10 maximum attempts.<br>
+<br>
+We ran your code on ALL tests and you got 44.0/50.0 points (extra credit: 0=
+.0/0.0).&nbsp; See below for details.<br>
+<br>
+! If you have any questions about the grades, please contact Andrew Han &lt=
+;handrew@stanford.edu&gt;.<br>
+<br>
+* 1a: <br>
+3 points (max attainable: 3)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 1b: <br>
+3 points (max attainable: 3)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 2a-hidden: Hidden test for CounterexampleMDP. Ensure that V[startState] i=
+s greater after noise is added.<br>
+3 points (max attainable: 3), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 2b: <br>
+3 points (max attainable: 3)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 2c: <br>
+2.0 points (max attainable: 3)<br>
+&nbsp; &gt; T'(s,a,o) is incorrectly defined<br>
+<br>
+* 3a-basic: Basic test for succAndProbReward() that covers several edge cas=
+es.<br>
+5 points (max attainable: 5), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 3a-hidden: Hidden test for ValueIteration. Run ValueIteration on Blackjac=
+kMDP, then test if V[startState] is correct.<br>
+5 points (max attainable: 5), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 3b-basic: Test for peekingMDP().&nbsp; Ensure that in at least 10% of sta=
+tes, the optimal policy is to peek.<br>
+4 points (max attainable: 4), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-basic: Basic test for incorporateFeedback() using NumberLineMDP.<br>
+5 points (max attainable: 5), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 4a-hidden: Hidden test for incorporateFeedback(). Run QLearningAlgorithm =
+on smallMDP, then ensure that getQ returns reasonable value.<br>
+0 points (max attainable: 3), took 1 seconds (max allowed: 3 seconds)<br>
+&nbsp; &gt; Expected to be &lt; 0.200000, but got 6.800000<br>
+<br>
+* 4b: <br>
+2.0 points (max attainable: 4)<br>
+&nbsp; &gt; Percentage difference not provided!<br>
+<br>
+* 4c-basic: Basic test for blackjackFeatureExtractor.&nbsp; Runs QLearningA=
+lgorithm using blackjackFeatureExtractor, then checks to see that Q-values =
+are correct.<br>
+5 points (max attainable: 5), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 4d: <br>
+4.0 points (max attainable: 4)<br>
+&nbsp; &gt; Correct analysis, note Q-learning rewards were not reported or =
+near 12 (possibly learned with exploration prob too low or too few iteratio=
+ns)<br>
+<br>
+* writeupValid: <br>
+0 points (max attainable: 0), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+CS221 course staff<br>
+</div></span></font>
+</body>
+</html>

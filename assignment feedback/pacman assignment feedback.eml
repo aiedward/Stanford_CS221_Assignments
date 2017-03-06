@@ -1,0 +1,107 @@
+MIME-Version: 1.0
+Date: Tue, 22 Nov 2016 05:38:02 -0800
+From: Isaac Rayburn Caswell <icaswell@Stanford.EDU>
+Subject: CS221 assignment [pacman] feedback on ALL tests: 38.0/40.0 points
+ (extra credit: 5.0/15.0)
+Thread-Topic: CS221 assignment [pacman] feedback on ALL tests: 38.0/40.0
+ points (extra credit: 5.0/15.0)
+To: Ziyuan Chen <ziyuanc@stanford.edu>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style></head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;"><div class=3D"PlainText">H=
+ello Ziyuan Chen,<br>
+<br>
+We received your pacman submission [Tue Nov&nbsp; 1 22:44:33 2016], which u=
+ses 0 late day(s).<br>
+<br>
+You have made 1 submissions out of 10 maximum attempts.<br>
+<br>
+We ran your code on ALL tests and you got 38.0/40.0 points (extra credit: 5=
+.0/15.0).&nbsp; See below for details.<br>
+<br>
+! If you have any questions about the grades, please contact Whitney LaRow =
+&lt;wlarow@stanford.edu&gt;.<br>
+<br>
+* 1a: Recurrence for multi-agent minimiax<br>
+3.0 points (max attainable: 5)<br>
+&nbsp; &gt; Minimize over all ghosts (not just the last one).<br>
+<br>
+* 1b-0-basic: Tests minimax for timeout on smallClassic.<br>
+4 points (max attainable: 4), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 1b-1-hidden: Tests minimax for off by one bug on smallClassic.<br>
+2 points (max attainable: 2), took 2 seconds (max allowed: 10 seconds)<br>
+<br>
+* 1b-2-hidden: Tests minimax for search depth bug on smallClassic.<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 1b-3-hidden: Tests minimax for suboptimal moves on smallClassic.<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 2a-0-basic: Tests alphabeta for timeout on smallClassic.<br>
+4 points (max attainable: 4), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 2a-1-hidden: Tests alphabeta for off by one bug on smallClassic.<br>
+2 points (max attainable: 2), took 1 seconds (max allowed: 10 seconds)<br>
+<br>
+* 2a-2-hidden: Tests alphabeta for search depth bug on smallClassic.<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 2a-3-hidden: Tests alphabeta for suboptimal moves on smallClassic.<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 3a: Recurrence for multi-agent expectimax<br>
+5 points (max attainable: 5)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 3b-0-basic: Tests expectimax for timeout on smallClassic.<br>
+4 points (max attainable: 4), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 3b-1-hidden: Tests expectimax for off by one bug on smallClassic.<br>
+2 points (max attainable: 2), took 1 seconds (max allowed: 10 seconds)<br>
+<br>
+* 3b-2-hidden: Tests expectimax for search depth bug on smallClassic.<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 3b-3-hidden: Tests expectimax for suboptimal moves on smallClassic.<br>
+2 points (max attainable: 2), took 0 seconds (max allowed: 10 seconds)<br>
+<br>
+* 4a: Points for placing in the top 3 (1st place: 8, 2nd place: 5, 3rd plac=
+e: 2)<br>
+0 points (max attainable: 8)<br>
+&nbsp; &gt; ?<br>
+<br>
+* 4a-1-basic: Check if score at least 1300 on smallClassic.<br>
+1 points (max attainable: 1), took 14 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-2-basic: Check if score at least 1400 on smallClassic.<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-3-basic: Check if score at least 1500 on smallClassic.<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-4-basic: Check if score at least 1600 on smallClassic.<br>
+0 points (max attainable: 1), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4a-5-basic: Check if score at least 1700 on smallClassic.<br>
+0 points (max attainable: 1), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+* 4b: Description of your evaluation function.<br>
+2.0 points (max attainable: 2)<br>
+&nbsp; &gt; Great features!<br>
+<br>
+* writeupValid: <br>
+0 points (max attainable: 0), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+CS221 course staff<br>
+</div></span></font>
+</body>
+</html>

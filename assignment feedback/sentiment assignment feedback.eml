@@ -1,0 +1,127 @@
+MIME-Version: 1.0
+Date: Sat, 22 Oct 2016 02:37:06 -0800
+From: Isaac Rayburn Caswell <icaswell@Stanford.EDU>
+Subject: CS221 assignment [sentiment] feedback on ALL tests: 42.0/46.0
+ points
+Thread-Topic: CS221 assignment [sentiment] feedback on ALL tests: 42.0/46.0
+ points
+To: Ziyuan Chen <ziyuanc@stanford.edu>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style></head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;"><div class=3D"PlainText">H=
+ello Ziyuan Chen,<br>
+<br>
+We received your sentiment submission [Tue Oct 11 20:49:29 2016], which use=
+s 8 late day(s).<br>
+<br>
+You have made 1 submissions out of 10 maximum attempts.<br>
+<br>
+We ran your code on ALL tests and your total score is 42.0/46.0.&nbsp; See =
+below for details.<br>
+<br>
+! If you have any questions about the grades, please contact Percy Liang &l=
+t;pliang@cs.stanford.edu&gt;.<br>
+<br>
+* 1a: <br>
+2.0 points (max attainable: 2)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 1b: <br>
+2 points (max attainable: 2)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 2a: <br>
+2 points (max attainable: 2)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 2b: <br>
+3 points (max attainable: 3)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 2c: <br>
+3 points (max attainable: 3)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 2d: <br>
+1.0 points (max attainable: 3)<br>
+&nbsp; &gt; On the right track, need to take derivitive w.r.t p and then pl=
+ug back in<br>
+<br>
+* 2e: <br>
+3 points (max attainable: 3)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 3a-0-basic: basic test<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3a-1-hidden: test multiple instances of the same word in a sentence<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3b-0-basic: basic sanity check for learning correct weights on two traini=
+ng and testing examples each<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3b-1-basic: test correct overriding of positive weight due to one negativ=
+e instance with repeated words<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3b-2-basic: test classifier on real polarity dev dataset<br>
+2 points (max attainable: 2), took 2 seconds (max allowed: 8 seconds)<br>
+<br>
+* 3c-0-basic: test correct generation of random dataset labels<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3c-1-basic: test that the randomly generated example actually coincides w=
+ith the given weights<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3d: <br>
+4 points (max attainable: 2)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 3e-0-basic: test basic character n-gram features<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3e-1-hidden: test feature extraction on repeated character n-grams<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 3f: <br>
+3 points (max attainable: 3)<br>
+&nbsp; &gt; Correct!<br>
+<br>
+* 4a: <br>
+1.0 points (max attainable: 2)<br>
+&nbsp; &gt; Subpart 2 incorrect<br>
+<br>
+* 4b-0-basic: test basic k-means on hardcoded datapoints<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 1 second)<br>
+<br>
+* 4b-1-hidden: test stability of cluster assignments<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 3 seconds)<br>
+<br>
+* 4b-2-hidden: test stability of cluster locations<br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 3 seconds)<br>
+<br>
+* 4b-3-basic: make sure the code runs fast enough<br>
+2 points (max attainable: 2), took 2 seconds (max allowed: 4 seconds)<br>
+<br>
+* 4c: <br>
+2.0 points (max attainable: 5)<br>
+&nbsp; &gt; You need to reason globally about each point that is constraine=
+d to belong in a particular group.<br>
+<br>
+* writeupValid: <br>
+1 points (max attainable: 1), took 0 seconds (max allowed: 5 seconds)<br>
+<br>
+CS221 course staff<br>
+</div></span></font>
+</body>
+</html>
