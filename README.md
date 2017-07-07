@@ -1,4 +1,4 @@
-# Stanford CS221 Artificial Intelligence Fall 2016 Assignments.
+Stanford CS221 Artificial Intelligence Fall 2016 Assignments.
 
 # Important Disclaimer Regarding Academic Integrity Violations
 This repository is solely intended as a backup of my personal work.
