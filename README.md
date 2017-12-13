@@ -1,10 +1,10 @@
 Stanford CS221 Artificial Intelligence Fall 2016 Assignments.
 
 # Important Disclaimer Regarding Academic Integrity Violations
-This repository is solely intended as a backup of my personal work.
+This repository is solely intended as a backup of my personal work. I am not and have never been affliated with Stanford, but you should pay attention if you are formally registered for this course in a university.
 
-Academic Plagarism is a serious issue in most U.S. universities, so please do not: 
-    1. Copy any source code into the your own assignments 
+Academic plagarism is a serious issue in most U.S. universities, so please do not: 
+    1. Copy any source code into your own assignments 
     2. Use the same source code logic but change variable names, loop types, and statement orders, etc. 
     3. Plagiarize in any other way
 
